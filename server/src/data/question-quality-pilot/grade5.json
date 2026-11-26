@@ -1,0 +1,366 @@
+[
+  {
+    "skillCode": "EF05MA06",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "percentual-parte-de-quatro",
+    "statement": "Uma faixa foi dividida em quatro partes iguais. Três partes foram pintadas. Que porcentagem da faixa foi pintada?",
+    "options": [
+      { "text": "75%", "reason": "Relaciona três quartos da faixa a 75%." },
+      { "text": "25%", "reason": "Pode ter contado só uma das quatro partes ou usado a parte que ficou sem pintura." },
+      { "text": "50%", "reason": "Pode ter reconhecido que a faixa está parcialmente pintada e usado a metade como referência sem contar os quartos." },
+      { "text": "100%", "reason": "Pode ter considerado a faixa inteira em vez da parte pintada." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Cada parte é um quarto da faixa e vale 25%. Três partes correspondem a 25% + 25% + 25% = 75%."
+  },
+  {
+    "skillCode": "EF05MA06",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "comparar-descontos-em-bases-diferentes",
+    "statement": "Uma mochila de R$ 80 tem desconto de 25%. Um par de tênis de R$ 210 tem desconto de 10%. Em qual compra o desconto em reais é maior e quanto ele supera o outro desconto?",
+    "options": [
+      { "text": "Na mochila, R$ 1 a mais.", "reason": "Pode ter calculado os dois descontos e associado a vantagem ao maior percentual." },
+      { "text": "No tênis, R$ 1 a mais.", "reason": "Compara um quarto de R$ 80, que são R$ 20, com um décimo de R$ 210, que são R$ 21." },
+      { "text": "Na mochila, R$ 15 a mais.", "reason": "Pode ter subtraído os números 25 e 10 e interpretado a diferença entre percentuais como valor em reais." },
+      { "text": "No tênis, R$ 21 a mais.", "reason": "Pode ter encontrado o desconto maior sem calcular quanto ele supera o menor." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Um quarto de R$ 80 é R$ 20. Um décimo de R$ 210 é R$ 21. O desconto do tênis supera o da mochila em R$ 1."
+  },
+  {
+    "skillCode": "EF05MA06",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "recuperar-inteiro-conhecendo-metade",
+    "statement": "A turma já separou 18 livros para uma doação. Essa quantidade é exatamente 50% da meta da turma. Quantos livros a turma pretende doar ao todo?",
+    "options": [
+      { "text": "9 livros.", "reason": "Pode ter calculado a metade de 18 quando 18 já representa a metade." },
+      { "text": "18 livros.", "reason": "Pode ter tomado a parte que já foi separada pela meta inteira." },
+      { "text": "36 livros.", "reason": "Reconstrói a meta inteira com duas metades de 18 livros." },
+      { "text": "68 livros.", "reason": "Pode ter tratado o número 50 do percentual como uma quantidade de livros e somado 18 + 50." }
+    ],
+    "correctIndex": 2,
+    "explanation": "Os 18 livros formam metade da meta. Para achar a meta inteira, somamos duas metades: 18 + 18 = 36 livros."
+  },
+  {
+    "skillCode": "EF05MA06",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "recuperar-inteiro-pelo-quarto-restante",
+    "statement": "Cada trabalho ocupa o mesmo espaço no mural. Quando 75% do espaço está ocupado, ainda cabem 8 trabalhos. Qual raciocínio encontra a capacidade total do mural?",
+    "options": [
+      { "text": "8 × 3 = 24, pois 75% correspondem a três quartos.", "reason": "Pode ter encontrado a quantidade já exposta e tomado esse resultado pela capacidade inteira." },
+      { "text": "8 × 2 = 16, pois é preciso juntar duas metades.", "reason": "Pode ter interpretado o espaço vazio como metade, apesar de o mural já estar três quartos ocupado." },
+      { "text": "8 + 25 = 33, pois faltam 25% para encher o mural.", "reason": "Pode ter reconhecido o percentual que falta, mas tratado 25% como 25 trabalhos." },
+      { "text": "8 × 4 = 32, pois os 8 espaços livres são um quarto.", "reason": "Usa o quarto que falta para reconstruir os quatro quartos do mural." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Os 75% ocupados são três dos quatro quartos do mural. Resta um quarto, com espaço para 8 trabalhos. Os quatro quartos comportam 8 × 4 = 32 trabalhos."
+  },
+  {
+    "skillCode": "EF05MA06",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "preco-final-com-desconto-de-um-decimo",
+    "supportText": "Exemplo resolvido. Um jogo de R$ 90 com 10% de desconto custa R$ 81. Um décimo de 90 é 9. Tirando os R$ 9 do preço original, ficam R$ 81.",
+    "statement": "Um conjunto de materiais escolares custa R$ 170 antes da promoção. A loja oferece 10% de desconto. Qual será o valor pago?",
+    "options": [
+      { "text": "R$ 17.", "reason": "Pode ter calculado o desconto e informado esse valor em vez do preço final." },
+      { "text": "R$ 160.", "reason": "Pode ter subtraído R$ 10, usando a taxa de 10% como se fosse um desconto em reais." },
+      { "text": "R$ 153.", "reason": "Calcula R$ 17 de desconto e subtrai do preço original." },
+      { "text": "R$ 187.", "reason": "Pode ter calculado um décimo de 170 e acrescentado o valor em vez de descontá-lo." }
+    ],
+    "correctIndex": 2,
+    "explanation": "10% correspondem a um décimo. R$ 170 divididos por 10 dão R$ 17 de desconto. O valor pago é 170 − 17 = R$ 153."
+  },
+  {
+    "skillCode": "EF05MA06",
+    "stage": "verification",
+    "difficulty": "dificil",
+    "family": "comparar-total-de-partes-com-metade-do-total",
+    "statement": "O quadro de uma campanha tem duas linhas. Turma A: separou 75% de 28 kits. Turma B: separou 50% de 42 kits. Juntando os kits separados pelas duas turmas, o resultado passa da metade dos 70 kits disponíveis?",
+    "options": [
+      { "text": "Não. Foram separados 21 kits, menos da metade.", "reason": "Pode ter obtido o valor de uma turma e esquecido de somar a contribuição da outra." },
+      { "text": "Sim. Foram separados 42 kits, mais da metade.", "reason": "Calcula cada parte na base correspondente, soma e compara o total com 35." },
+      { "text": "Não. Foram separados 35 kits, exatamente a metade.", "reason": "Pode ter aplicado 50% aos 70 kits sem considerar que a turma A separou 75%." },
+      { "text": "Sim. Foram separados 49 kits, mais da metade.", "reason": "Pode ter somado todos os 28 kits da turma A aos 21 separados pela turma B." }
+    ],
+    "correctIndex": 1,
+    "explanation": "A turma A separou três quartos de 28, ou 21 kits. A turma B separou metade de 42, ou 21 kits. O total de 42 kits supera 35, a metade dos 70 disponíveis."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "contar-pares-com-duas-colecoes",
+    "statement": "Uma etiqueta tem um símbolo e uma cor. Há dois símbolos, estrela e círculo, e três cores, azul, verde e laranja. Cada símbolo pode ser usado com qualquer cor. Quantas etiquetas diferentes podem ser montadas?",
+    "options": [
+      { "text": "6 etiquetas.", "reason": "Conta três escolhas de cor para cada um dos dois símbolos." },
+      { "text": "5 etiquetas.", "reason": "Pode ter somado as quantidades de símbolos e cores sem formar os pares." },
+      { "text": "3 etiquetas.", "reason": "Pode ter contado as cores combinadas com um só símbolo." },
+      { "text": "4 etiquetas.", "reason": "Pode ter feito dois pares para cada símbolo e deixado uma cor de fora." }
+    ],
+    "correctIndex": 0,
+    "explanation": "A estrela pode aparecer em três cores. O círculo também. Podemos organizar duas linhas de três combinações, somando 3 + 3 = 6 etiquetas."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "contar-escolhas-de-tres-colecoes",
+    "statement": "Cada cartaz para a feira tem um desenho, uma moldura e uma legenda. O desenho pode ser folha, flor ou fruto. A moldura pode ser redonda ou quadrada. A legenda pode ser escrita à mão ou impressa. Todas essas escolhas podem ser combinadas livremente. Quantos cartazes diferentes podem ser montados?",
+    "options": [
+      { "text": "7 cartazes.", "reason": "Pode ter somado 3 + 2 + 2, contando escolhas isoladas." },
+      { "text": "6 cartazes.", "reason": "Pode ter combinado desenhos e molduras, deixando de combinar os dois tipos de legenda." },
+      { "text": "12 cartazes.", "reason": "Forma quatro pares de moldura e legenda para cada um dos três desenhos." },
+      { "text": "4 cartazes.", "reason": "Pode ter multiplicado 2 × 2 para um desenho e deixado os outros dois de fora." }
+    ],
+    "correctIndex": 2,
+    "explanation": "Para cada desenho, há duas molduras e dois tipos de legenda para cada moldura. São 2 × 2 = 4 combinações por desenho, ou 3 × 4 = 12 cartazes ao todo."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "completar-lista-sistematica-de-pares",
+    "statement": "O grupo da horta está listando as duplas de uma muda e uma cor de vaso. Cada muda, alface, coentro ou cebolinha, pode ficar em vaso azul ou verde. Na lista há alface em azul e em verde, coentro em verde e cebolinha em azul e em verde. Qual dupla falta?",
+    "options": [
+      { "text": "Alface em vaso verde.", "reason": "Pode ter repetido uma combinação já registrada no primeiro grupo." },
+      { "text": "Coentro em vaso azul.", "reason": "Identifica a única combinação ainda ausente ao conferir as duas cores por muda." },
+      { "text": "Cebolinha em vaso azul.", "reason": "Pode ter percebido a falta da cor azul em um grupo e escolhido a muda que já a possuía." },
+      { "text": "Coentro em vaso verde.", "reason": "Pode ter identificado o grupo incompleto e repetido a combinação que já estava nele." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Cada muda precisa aparecer com as duas cores. Alface e cebolinha já aparecem em ambas. Coentro aparece apenas em verde, então falta coentro em azul."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "contar-pares-com-restricao-local",
+    "statement": "Uma página do jornal da escola tem um tipo de ilustração e uma cor de borda. Há três tipos de ilustração, foto, desenho e mapa, e quatro cores de borda. Somente a combinação de foto com borda vermelha é proibida. Qual contagem respeita essa regra?",
+    "options": [
+      { "text": "8, contando só desenhos e mapas nas quatro cores.", "reason": "Pode ter retirado todas as combinações com foto, embora só uma esteja proibida." },
+      { "text": "9, contando três cores para cada tipo de ilustração.", "reason": "Pode ter retirado a borda vermelha também de desenhos e mapas." },
+      { "text": "12, contando quatro cores para cada tipo de ilustração.", "reason": "Pode ter multiplicado as duas quantidades sem separar a combinação proibida." },
+      { "text": "11, contando três cores para foto e quatro para cada outro tipo.", "reason": "Organiza as possibilidades por ilustração e retira só a combinação proibida." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Uma foto pode ter três cores de borda. Desenho e mapa podem ter quatro cores cada. A soma 3 + 4 + 4 dá 11 páginas diferentes."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "contar-pares-com-duas-colecoes",
+    "supportText": "Exemplo resolvido. Uma rota combina uma das duas entradas de um parque com uma das três pistas. Para cada entrada podemos listar três rotas. Duas listas de três rotas totalizam seis.",
+    "statement": "Para montar um marcador de página, escolhemos um entre quatro desenhos e uma entre duas cores de papel. Cada desenho pode aparecer nas duas cores. Quantos marcadores diferentes podem ser montados?",
+    "options": [
+      { "text": "8 marcadores.", "reason": "Conta duas cores para cada um dos quatro desenhos." },
+      { "text": "6 marcadores.", "reason": "Pode ter somado quatro desenhos e duas cores sem formar todos os pares." },
+      { "text": "4 marcadores.", "reason": "Pode ter contado os desenhos usando só uma cor de papel." },
+      { "text": "16 marcadores.", "reason": "Pode ter usado quatro opções tanto para os desenhos quanto para as cores." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Para cada cor de papel há quatro desenhos possíveis. Uma tabela com quatro linhas e duas colunas tem 4 × 2 = 8 combinações."
+  },
+  {
+    "skillCode": "EF05MA09",
+    "stage": "verification",
+    "difficulty": "media",
+    "family": "deduzir-numero-de-linhas-da-tabela-de-pares",
+    "statement": "Uma oficina registrou 18 impressões diferentes. Cada impressão combina um carimbo com uma das três cores de tinta. Todos os carimbos foram usados com cada uma das três cores. A tabela de registro tem uma linha por carimbo e uma coluna por cor. Quantos carimbos foram usados e como a tabela confirma?",
+    "options": [
+      { "text": "3 carimbos, pois a tabela tem três colunas.", "reason": "Pode ter lido a quantidade de cores como se fosse a quantidade de carimbos." },
+      { "text": "9 carimbos, pois metade das 18 impressões são carimbos.", "reason": "Pode ter dividido por dois por haver dois tipos de escolha, sem usar as três combinações por carimbo." },
+      { "text": "15 carimbos, pois 18 impressões menos 3 cores dão 15.", "reason": "Pode ter interpretado o total como soma de escolhas, e não como quantidade de pares." },
+      { "text": "6 carimbos, pois são seis linhas de três impressões.", "reason": "Divide o total de pares pelas três cores de cada linha e confirma 6 × 3 = 18." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Cada carimbo ocupa uma linha com três impressões, uma por cor. Para preencher 18 células em grupos de três, são necessárias 18 ÷ 3 = 6 linhas."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "ampliar-receita-com-fator-inteiro",
+    "statement": "Para preparar duas jarras iguais de refresco, a cantina usa três copos de polpa ao todo. Quantos copos de polpa serão usados em quatro jarras, mantendo a mesma receita?",
+    "options": [
+      { "text": "6 copos.", "reason": "Dobra a quantidade de polpa quando o número de jarras dobra." },
+      { "text": "4 copos.", "reason": "Pode ter igualado a quantidade de copos ao número de jarras sem usar a receita." },
+      { "text": "5 copos.", "reason": "Pode ter somado dois copos à receita porque foram acrescentadas duas jarras." },
+      { "text": "12 copos.", "reason": "Pode ter tratado os três copos como a quantidade para cada jarra." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Quatro jarras são dois grupos de duas jarras. Cada grupo usa três copos. Os dois grupos usam 3 + 3 = 6 copos."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "preco-unitario-para-quantidade-nova",
+    "statement": "Duas folhas de EVA custam R$ 8 juntas. Todas as folhas têm o mesmo preço por unidade. Quanto custam cinco folhas?",
+    "options": [
+      { "text": "R$ 11.", "reason": "Pode ter somado R$ 3 ao preço porque foram acrescentadas três folhas." },
+      { "text": "R$ 20.", "reason": "Encontra o preço de uma folha e usa esse valor para cinco folhas." },
+      { "text": "R$ 16.", "reason": "Pode ter dobrado o preço original, o que cobre quatro folhas e deixa uma sem contar." },
+      { "text": "R$ 40.", "reason": "Pode ter tomado R$ 8 como preço de cada folha em vez de duas juntas." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Uma folha custa 8 ÷ 2 = R$ 4. Cinco folhas custam 5 × 4 = R$ 20."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "distancia-real-a-partir-da-escala-do-mapa",
+    "statement": "Em um mapa, um caminho de 3 cm representa 12 km na realidade. Outro caminho mede 7 cm no mesmo mapa. Qual é o comprimento real do segundo caminho?",
+    "options": [
+      { "text": "16 km.", "reason": "Pode ter acrescentado 4 km aos 12 km porque o desenho ficou 4 cm maior." },
+      { "text": "24 km.", "reason": "Pode ter dobrado os 12 km, considerando só 6 cm do segundo caminho." },
+      { "text": "28 km.", "reason": "Usa a mesma escala de 4 km para cada centímetro do mapa." },
+      { "text": "84 km.", "reason": "Pode ter multiplicado 7 × 12 sem notar que os 12 km correspondem a três centímetros." }
+    ],
+    "correctIndex": 2,
+    "explanation": "No mapa, 1 cm representa 12 ÷ 3 = 4 km. Então 7 cm representam 7 × 4 = 28 km."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "julgar-preco-unitario-constante-em-duas-listas",
+    "statement": "Dois pontos de venda divulgaram preços de mudas. No ponto A, 2 mudas custam R$ 6, 4 custam R$ 10 e 6 custam R$ 14. No ponto B, 2 mudas custam R$ 8, 4 custam R$ 16 e 6 custam R$ 24. Em qual ponto o preço por muda é o mesmo nas três quantidades mostradas?",
+    "options": [
+      { "text": "Nos dois, pois o valor total aumenta com a quantidade.", "reason": "Pode ter interpretado qualquer aumento no preço junto com a quantidade como prova de proporcionalidade." },
+      { "text": "Só no A, pois a cada duas mudas a mais o total sobe R$ 4.", "reason": "Pode ter percebido o aumento constante e aplicado esse critério sem conferir o preço por muda em cada compra." },
+      { "text": "Em nenhum, pois o preço total muda com a quantidade.", "reason": "Pode ter esperado que os próprios totais se mantivessem fixos." },
+      { "text": "Só no B, pois dividir cada total pela quantidade dá R$ 4.", "reason": "Confere o preço unitário nas três compras e distingue um padrão proporcional de um aumento que não preserva essa razão." }
+    ],
+    "correctIndex": 3,
+    "explanation": "No ponto B, 8 ÷ 2, 16 ÷ 4 e 24 ÷ 6 resultam em R$ 4 por muda. No ponto A, 2 mudas custam R$ 6, mas 4 não custam o dobro, R$ 12. A tabela A não mantém o mesmo preço por muda."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "reduzir-receita-com-fator-inteiro",
+    "supportText": "Exemplo resolvido. Uma preparação para 8 porções usa 4 medidas de milho. Ao fazer 4 porções, fazemos metade da preparação e usamos metade do milho, 2 medidas.",
+    "statement": "Uma receita para 12 porções usa 9 medidas de flocos de milho. Serão feitas 4 porções, mantendo a receita. Quantas medidas são necessárias?",
+    "options": [
+      { "text": "1 medida.", "reason": "Pode ter tirado oito medidas porque a quantidade de porções caiu de 12 para 4." },
+      { "text": "4 medidas.", "reason": "Pode ter igualado a quantidade de ingrediente ao número de porções." },
+      { "text": "3 medidas.", "reason": "Aplica a terça parte às medidas porque 4 porções são a terça parte de 12." },
+      { "text": "27 medidas.", "reason": "Pode ter percebido o fator três e multiplicado quando a receita deveria diminuir." }
+    ],
+    "correctIndex": 2,
+    "explanation": "Quatro porções são a terça parte de doze. Tomamos a terça parte da quantidade de ingrediente: 9 ÷ 3 = 3 medidas."
+  },
+  {
+    "skillCode": "EF05MA12",
+    "stage": "verification",
+    "difficulty": "media",
+    "family": "determinar-quantidade-de-folhas-dado-total-de-etiquetas",
+    "statement": "Um quadro da oficina registra quantas etiquetas cabem em folhas do mesmo modelo. Com 3 folhas são feitas 21 etiquetas. Com 8 folhas são feitas 56 etiquetas. A mesma quantidade de etiquetas cabe em cada folha. Quantas folhas completas serão usadas para fazer exatamente 91 etiquetas?",
+    "options": [
+      { "text": "10 folhas.", "reason": "Pode ter contado apenas o quanto falta depois das primeiras 21 etiquetas, sem incluir as três folhas usadas para produzi-las." },
+      { "text": "13 folhas.", "reason": "Obtém sete etiquetas por folha e usa essa relação para descobrir o número de folhas." },
+      { "text": "5 folhas.", "reason": "Pode ter encontrado as folhas necessárias para passar de 56 a 91 etiquetas sem contar as oito folhas iniciais." },
+      { "text": "43 folhas.", "reason": "Pode ter somado 35 folhas às oito iniciais porque a quantidade de etiquetas aumentou de 56 para 91." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Cada folha rende 21 ÷ 3 = 7 etiquetas, o que também confere com 56 ÷ 8. Para fazer 91 etiquetas usamos 91 ÷ 7 = 13 folhas."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "enumerar-categorias-sem-repeticao-em-sorteio",
+    "statement": "Em um saquinho há três fichas iguais, exceto pelas letras A, E e U, uma em cada ficha. As fichas são misturadas e uma é sorteada sem olhar. Quais letras podem sair e como se comparam suas chances?",
+    "options": [
+      { "text": "A, E e U, com a mesma chance para cada uma.", "reason": "Lista as três letras possíveis e reconhece que cada uma ocupa uma das fichas iguais." },
+      { "text": "A, E e U, com mais chance de sair A.", "reason": "Pode ter atribuído vantagem à primeira letra da lista sem considerar que há uma ficha de cada." },
+      { "text": "A e E, com a mesma chance para as duas.", "reason": "Pode ter omitido a ficha com U ao identificar os resultados." },
+      { "text": "A, E, I, O e U, com a mesma chance para cada uma.", "reason": "Pode ter usado a lista completa de vogais em vez das letras presentes no saquinho." }
+    ],
+    "correctIndex": 0,
+    "explanation": "O sorteio pode tirar A, E ou U, as únicas letras do saquinho. Cada letra está em uma ficha e todas as fichas têm a mesma chance de sair."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "comparar-categorias-agregadas-de-um-dado",
+    "statement": "Um dado equilibrado tem seis faces. Três faces mostram C, duas mostram M e uma mostra L. Ao lançar o dado, observamos apenas a letra na face de cima. Quais letras podem sair e qual tem a maior chance?",
+    "options": [
+      { "text": "C, M e L. Todas têm a mesma chance.", "reason": "Pode ter confundido a igualdade entre faces com a igualdade entre letras." },
+      { "text": "C e M. C tem a maior chance.", "reason": "Pode ter excluído L porque aparece em uma única face, apesar de ser um resultado possível." },
+      { "text": "C, M e L. C tem a maior chance.", "reason": "Lista todas as letras e identifica a que ocupa mais faces com chances iguais." },
+      { "text": "C, M e L. C e M têm chances iguais, maiores que L.", "reason": "Pode ter percebido que C e M se repetem, mas tratado duas e três faces como se fossem a mesma quantidade." }
+    ],
+    "correctIndex": 2,
+    "explanation": "C, M e L são possíveis. Como cada face tem a mesma chance e C aparece em três faces, mais que M ou L, C é a letra mais provável."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "comparar-setores-iguais-com-categorias-repetidas",
+    "statement": "Uma roleta tem oito setores de mesmo tamanho e igual chance de serem apontados pela seta. Três mostram sol, três mostram chuva e dois mostram vento. A seta aponta um único setor por vez. Qual conclusão faz sentido?",
+    "options": [
+      { "text": "Sol, chuva e vento são possíveis e têm chances iguais.", "reason": "Pode ter contado três nomes distintos e presumido que cada nome ocupa a mesma parte da roleta." },
+      { "text": "Sol e chuva têm chances iguais. Vento é possível, mas tem chance menor.", "reason": "Compara a quantidade de setores de cada símbolo sem confundir baixa chance com impossibilidade." },
+      { "text": "Sol e chuva têm chances iguais. Vento não pode sair.", "reason": "Pode ter identificado a igualdade entre os dois primeiros símbolos e descartado o que ocupa menos setores." },
+      { "text": "Vento tem chance menor que sol e chance igual à de chuva.", "reason": "Pode ter comparado corretamente sol e vento, mas deixado de conferir que chuva tem o mesmo número de setores que sol." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Sol e chuva aparecem no mesmo número de setores iguais, três cada. Vento ocupa dois setores. Pode sair, mas tem chance menor que cada um dos outros dois símbolos."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "agrupar-ordens-de-dois-lancamentos-por-total",
+    "statement": "Lia lança uma moeda equilibrada duas vezes, de modo que um lançamento não altera o outro. Ela anota quantas caras saem. Rui afirma que sair zero, uma ou duas caras são resultados com a mesma chance. Qual análise ajuda a conferir essa afirmação?",
+    "options": [
+      { "text": "Os totais 0, 1 e 2 são possíveis. Têm a mesma chance, pois a moeda é equilibrada.", "reason": "Pode ter transferido a igualdade de chances de cada lançamento para os totais sem enumerar as combinações." },
+      { "text": "Os totais 1 e 2 são possíveis. Sair zero não vale como resultado.", "reason": "Pode ter omitido a sequência em que os dois lançamentos dão coroa." },
+      { "text": "Os totais 0, 1 e 2 são possíveis. Duas caras têm mais chance porque valem mais.", "reason": "Pode ter confundido um total numérico maior com um resultado mais provável." },
+      { "text": "Os totais 0, 1 e 2 são possíveis. Uma cara tem mais chance: pode sair cara e coroa ou coroa e cara.", "reason": "Agrupa duas combinações distintas no total de uma cara e apenas uma combinação em cada extremo." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Os dois lançamentos podem dar coroa e coroa, cara e coroa, coroa e cara ou cara e cara. Essas quatro sequências têm a mesma chance. Duas delas dão uma cara, enquanto só uma dá zero caras e só uma dá duas caras."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "reavaliar-chances-apos-retirar-uma-ficha",
+    "supportText": "Exemplo resolvido. Em um saco com duas fichas amarelas e duas verdes, as duas cores têm a mesma chance. As fichas são iguais, exceto pela cor, e o sorteio é feito sem olhar.",
+    "statement": "Um saco contém quatro fichas azuis e quatro verdes, iguais exceto pela cor. Uma ficha azul foi retirada antes do sorteio. Ao sortear uma das fichas restantes sem olhar, quais cores podem sair e qual tem maior chance?",
+    "options": [
+      { "text": "Azul e verde podem sair. Verde tem maior chance.", "reason": "Atualiza as quantidades para três azuis e quatro verdes e compara as chances." },
+      { "text": "Azul e verde podem sair. Têm a mesma chance.", "reason": "Pode ter comparado as quantidades de antes da retirada." },
+      { "text": "Azul e verde podem sair. Azul tem maior chance.", "reason": "Pode ter atribuído à cor retirada mais chance, em vez de olhar para as fichas restantes." },
+      { "text": "Só verde pode sair.", "reason": "Pode ter interpretado a retirada de uma ficha azul como retirada de todas as fichas azuis." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Depois da retirada, há três fichas azuis e quatro verdes. As duas cores ainda são possíveis. Verde tem maior chance porque há mais fichas verdes no saco."
+  },
+  {
+    "skillCode": "EF05MA22",
+    "stage": "verification",
+    "difficulty": "dificil",
+    "family": "verificar-se-e-possivel-equilibrar-tres-resultados",
+    "statement": "Numa gincana, são misturadas oito fichas iguais, numeradas de 1 a 8, e uma delas é sorteada sem olhar. Na regra atual, 1 ou 2 indicam leitura, 3 ou 4 indicam desenho e 5 a 8 indicam música. Quais estações podem sair? É possível dar às três a mesma chance, usando todas as fichas e ligando cada número a uma só estação?",
+    "options": [
+      { "text": "As três. Sim, basta mover uma ficha de música para desenho.", "reason": "Pode ter igualado desenho e música, com três fichas cada, mas deixado leitura com duas." },
+      { "text": "As três. Sim, a chance já é igual porque cada número tem a mesma chance.", "reason": "Pode ter confundido a igualdade entre as fichas com a igualdade entre os grupos de fichas." },
+      { "text": "Só música. Não, pois música é a estação com mais fichas hoje.", "reason": "Pode ter tratado a estação mais provável como a única possível e avaliado apenas a regra atual." },
+      { "text": "As três. Não, pois oito fichas não podem ser separadas em três grupos iguais.", "reason": "Confere que todas as estações têm fichas na regra atual e identifica a condição de igualdade na nova regra." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Leitura, desenho e música têm fichas na regra atual. Para as chances ficarem iguais, as três estações precisariam ter o mesmo número de fichas. Com duas fichas por estação usamos seis, e com três precisamos de nove. Por isso oito fichas não formam três grupos iguais."
+  }
+]

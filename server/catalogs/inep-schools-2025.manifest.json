@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "directoryType": "inep_school_catalog",
+  "scope": {
+    "administrativeDependency": "municipal"
+  },
+  "censusYear": 2025,
+  "sourceName": "Inep · Censo Escolar",
+  "sourceUrl": "https://download.inep.gov.br/dados_abertos/microdados_censo_escolar_2025_.zip",
+  "sourceArchive": "microdados_censo_escolar_2025_.zip",
+  "sourceArchiveBytes": 537217189,
+  "sourceArchiveSha256": "ad2c389160be5cf6b8e32257677e9b5657f01d10a342355ad9757bfecd2fc90a",
+  "sourceEntry": "microdados_censo_escolar_2025_v2/dados/Tabela_Escola_2025_V2.csv",
+  "sourceEntryMd5": "7b0d5882b39619f138fc01ed7abea9b0",
+  "ibgeSourceUrl": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios",
+  "ibgeDirectorySha256": "86ecdccdf97d72e7e5e46f0854cfcea8bacc28154cc1bc4ed0e6110e3a6c9c02",
+  "repairedFromIbgeCount": 1,
+  "catalogEncoding": "utf8",
+  "catalogSha256": "cc973b0c6c8e225cd11189bc85d257de56152caf0a1a8344343dcadb843908a8",
+  "catalogBytes": 9483241,
+  "artifactFile": "inep-municipal-schools-2025.csv.gz",
+  "artifactSha256": "db1930680b12c0076f1ff67c3f9099f973469ea6509257964c174ebfc8249b79",
+  "artifactBytes": 1896902,
+  "rowCount": 128145,
+  "activeCount": 107372,
+  "municipalityCount": 5569,
+  "ufCount": 26,
+  "dependencies": {
+    "municipal": 128145
+  },
+  "excludedDependencies": {
+    "state": 33561,
+    "private": 51758,
+    "federal": 728
+  },
+  "statuses": {
+    "paused": 18504,
+    "active": 107372,
+    "closed": 2269
+  },
+  "predecessorCatalogs": [
+    {
+      "catalogSha256": "e188908c31aa0c70a740a48be75b608600b87a1c3c4a89eb04a67abf5ca325a2",
+      "rowCount": 214192
+    }
+  ]
+}

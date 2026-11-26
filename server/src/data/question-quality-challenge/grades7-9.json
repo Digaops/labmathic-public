@@ -1,0 +1,251 @@
+[
+  {
+    "skillCode": "EF07MA17",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "proporcionalidade-lote-e-impressoras",
+    "statement": "Quatro impressoras idênticas, ligadas ao mesmo tempo e trabalhando sempre à mesma taxa, imprimem um lote em 18 min. A escola vai fazer um lote 50% maior. Se n é a quantidade de impressoras e t é o tempo em minutos, qual expressão representa o novo lote e o que acontece quando n = 6?",
+    "options": [
+      {
+        "text": "t = 72/n. Com seis impressoras, o lote leva 12 min.",
+        "reason": "Considera as impressoras a mais, mas mantém a quantidade de páginas do lote antigo."
+      },
+      {
+        "text": "t = 27n/4. Com seis impressoras, o lote leva 40,5 min.",
+        "reason": "Aumenta corretamente o tempo em 50% para quatro impressoras, mas supõe que mais impressoras também aumentam o tempo."
+      },
+      {
+        "text": "t = 108/n. Com seis impressoras, o lote leva 18 min.",
+        "reason": "O trabalho total aumenta em 50% e é repartido igualmente entre as impressoras."
+      },
+      {
+        "text": "t = 48/n. Com seis impressoras, o lote leva 8 min.",
+        "reason": "Trata o aumento do lote como uma redução no trabalho necessário, dividindo 72 por 1,5."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "O lote antigo exige 4 × 18 = 72 minutos de trabalho de uma impressora. Aumentar o lote pela metade eleva esse trabalho a 108 minutos. Como n impressoras dividem essa carga, t = 108/n. Com seis, t = 18 min. O lote e a quantidade de impressoras cresceram na mesma proporção, e por isso o tempo ficou igual."
+  },
+  {
+    "skillCode": "EF07MA28",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "fluxograma-triangulo-apos-primeiro-lado",
+    "statement": "Um robô que desenha no papel já traçou o lado AB de 5 cm. Agora está em B, apontando no mesmo sentido em que foi de A para B. Qual bloco completa o fluxograma para desenhar um triângulo equilátero, traçando cada lado uma vez e parando em A?",
+    "supportText": "Fluxograma em texto\nInício → avance 5 cm traçando AB → execute o bloco escolhido → fim.\nGirar muda apenas a direção do robô. Avançar sempre traça um segmento.",
+    "options": [
+      {
+        "text": "Repita 2 vezes: gire 120° à esquerda e avance 5 cm.",
+        "reason": "Em cada um dos dois vértices que faltam, o robô faz o giro externo correto antes de traçar o lado seguinte."
+      },
+      {
+        "text": "Repita 2 vezes: gire 60° à esquerda e avance 5 cm.",
+        "reason": "Usa a medida do ângulo interno como giro do robô, que está apontado no prolongamento do lado."
+      },
+      {
+        "text": "Repita 3 vezes: gire 120° à esquerda e avance 5 cm.",
+        "reason": "Conta o lado AB de novo. Depois de fechar o triângulo, o robô ainda refaz AB."
+      },
+      {
+        "text": "Repita 2 vezes: avance 5 cm e gire 120° à esquerda.",
+        "reason": "Usa quantidade e giro adequados, mas o primeiro avanço prolonga AB em vez de traçar o segundo lado."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "Cada ângulo interno do triângulo equilátero mede 60°. Como o robô aponta para a frente no prolongamento do lado anterior, precisa girar 180° − 60° = 120°. O giro deve acontecer antes de avançar. Os dois avanços que faltam, ambos de 5 cm, traçam o segundo e o terceiro lados e encerram o percurso em A."
+  },
+  {
+    "skillCode": "EF07MA35",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "media-corrigida-e-amplitude",
+    "statement": "Dois grupos registraram seus empréstimos de livros em quatro semanas. O grupo A corrigiu apenas seu registro da quarta semana e sua média aumentou de 15 para 16. Qual passou a ser a amplitude do grupo A e como ela se compara à do grupo B?",
+    "supportText": "Grupo A antes da correção: 12, 14, 16 e 18 empréstimos.\nGrupo B: 10, 15, 15 e 20 empréstimos.\nA amplitude é a diferença entre o maior e o menor valor.",
+    "options": [
+      {
+        "text": "A amplitude de A é 7, menor que a de B.",
+        "reason": "Aumenta o registro de 18 para 19, como se um empréstimo a mais no total aumentasse a média em uma unidade."
+      },
+      {
+        "text": "A amplitude de A é 6, menor que a de B.",
+        "reason": "Compara os registros originais e ignora o efeito da correção no maior valor."
+      },
+      {
+        "text": "A amplitude de A é 12, maior que a de B.",
+        "reason": "Usa o maior valor corrigido de A, 22, mas subtrai 10, que é o menor valor de B."
+      },
+      {
+        "text": "A amplitude de A é 10, igual à de B.",
+        "reason": "Encontra a nova soma necessária, corrige o maior valor e compara as diferenças entre máximos e mínimos."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "Para a média de quatro valores subir de 15 para 16, a soma passa de 60 a 64. Como só o último registro foi corrigido, ele passa de 18 a 22. A amplitude de A passa a ser 22 − 12 = 10. A de B é 20 − 10 = 10. As amplitudes são iguais, embora as médias sejam diferentes."
+  },
+  {
+    "skillCode": "EF08MA17",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "intersecao-de-mediatriz-e-bissetriz",
+    "statement": "Dois caminhos retos saem da mesma esquina e formam um ângulo reto. A placa A está a 12 m da esquina no primeiro caminho. A placa B está a 20 m da esquina no segundo. Onde marcar um ponto dentro desse ângulo que fique à mesma distância de A e B e também à mesma distância perpendicular dos dois caminhos?",
+    "options": [
+      {
+        "text": "No ponto médio do segmento AB.",
+        "reason": "Garante distâncias iguais às placas, mas o ponto médio fica a 6 m de um caminho e a 10 m do outro."
+      },
+      {
+        "text": "No encontro da mediatriz de AB com a bissetriz interna do ângulo.",
+        "reason": "Usa o lugar geométrico de cada condição e impõe que o ponto satisfaça as duas ao mesmo tempo."
+      },
+      {
+        "text": "No encontro do segmento AB com a bissetriz interna do ângulo.",
+        "reason": "Garante distâncias iguais aos caminhos, mas o cruzamento com AB não é o ponto médio e não iguala as distâncias às placas."
+      },
+      {
+        "text": "No encontro da perpendicular a AB traçada por A com a bissetriz interna do ângulo.",
+        "reason": "Reconhece que a mediatriz é perpendicular a AB, mas usa A em vez do ponto médio como ponto de passagem."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "Os pontos equidistantes de A e B formam a reta perpendicular a AB que passa pelo seu ponto médio, a mediatriz. Dentro do ângulo, os pontos à mesma distância perpendicular dos dois caminhos formam a bissetriz interna. A interseção das duas linhas reúne ambas as condições."
+  },
+  {
+    "skillCode": "EF08MA23",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "escolher-grafico-com-bases-diferentes",
+    "statement": "O conselho escolar quer comparar a porcentagem de respostas “sim” dentro de cada grupo, com as duas porcentagens na mesma escala. Qual proposta de gráfico comunica essa comparação diretamente?",
+    "supportText": "Pesquisa fictícia sobre uso da biblioteca nesta semana.\nGrupo A: 24 respostas sim e 16 respostas não.\nGrupo B: 36 respostas sim e 44 respostas não.",
+    "options": [
+      {
+        "text": "Gráfico de barras, de 0 a 80 respostas, com barras “sim” de 24 para A e 36 para B.",
+        "reason": "Compara quantidades absolutas e pode sugerir maior participação no grupo B apenas por ele ter mais respondentes."
+      },
+      {
+        "text": "Gráfico de setores das 60 respostas “sim”, com 40% atribuídos a A e 60% a B.",
+        "reason": "Mostra a contribuição de cada grupo ao total de respostas “sim”, com um denominador diferente do pedido."
+      },
+      {
+        "text": "Gráfico de barras, de 0% a 100%, com barras “sim” de 60% para A e 45% para B.",
+        "reason": "Usa o total de respondentes de cada grupo para obter suas porcentagens e compara as duas em uma escala comum."
+      },
+      {
+        "text": "Gráfico de barras, de 0% a 100%, com barras “sim” de 20% para A e 30% para B.",
+        "reason": "Usa os 120 respondentes dos dois grupos como base única. Os valores não representam a participação dentro de cada grupo."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "No grupo A, 24 de 40 respondentes disseram sim, ou 60%. No grupo B, 36 de 80 disseram sim, ou 45%. As barras desenhadas na mesma escala de 0% a 100% mostram que A teve maior porcentagem, apesar de B ter mais respostas “sim” em quantidade."
+  },
+  {
+    "skillCode": "EF08MA20",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-capacidades-com-reserva",
+    "statement": "Há 0,9 m³ de água em uma cisterna. Depois de encher todos os recipientes de um plano, precisam sobrar pelo menos 180 L na cisterna. Qual conclusão está correta?",
+    "supportText": "Plano A: encher 9 recipientes de 80 dm³ cada um.\nPlano B: encher 3 recipientes de 160 dm³ cada um e 10 galões de 25 L cada um.",
+    "options": [
+      {
+        "text": "Somente o plano A serve. A deixa 180 L e B deixa 170 L.",
+        "reason": "Expressa as três unidades em litros e verifica o limite para os dois planos."
+      },
+      {
+        "text": "Os dois planos servem. A deixa 180 L e B deixa 395 L.",
+        "reason": "Conta os dez galões de 25 L como se fossem apenas 25 L no total."
+      },
+      {
+        "text": "Somente o plano B serve. A deixa 170 L e B deixa 180 L.",
+        "reason": "Inverte as sobras e acaba escolhendo o plano que consome 10 L a mais."
+      },
+      {
+        "text": "Nenhum plano serve. A deixa 180 L e B deixa 170 L.",
+        "reason": "Calcula as sobras, mas trata o requisito de pelo menos 180 L como se exigisse mais que 180 L."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "Como 1 m³ equivale a 1.000 L, há 900 L. Um dm³ equivale a 1 L. O plano A usa 9 × 80 = 720 L e deixa 180 L. O plano B usa 3 × 160 + 10 × 25 = 730 L e deixa 170 L. O plano A atende ao mínimo exatamente."
+  },
+  {
+    "skillCode": "EF09MA06",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "intersecao-de-funcoes-tabela-e-expressao",
+    "statement": "Dois reservatórios esvaziam a taxas constantes, e as medições começam juntas. No gráfico com tempo no eixo horizontal e volume no vertical, em que ponto as linhas se cruzam enquanto os dois reservatórios ainda têm água?",
+    "supportText": "Reservatório A: após 2 min, tem 90 L. Após 5 min, tem 60 L.\nReservatório B: o volume em litros, após t minutos, é dado por V = 70 − 5t.",
+    "options": [
+      {
+        "text": "Após 4 min, os dois têm 50 L.",
+        "reason": "Usa 90 L como volume inicial de A, apesar de esse valor corresponder a 2 min."
+      },
+      {
+        "text": "Após 5 min, os dois têm 60 L.",
+        "reason": "Lê um par de valores de A na tabela sem comparar com B, que tem 45 L aos 5 min."
+      },
+      {
+        "text": "Após 8 min, os dois têm 70 L.",
+        "reason": "Encontra o instante correto, mas combina o volume inicial de A com a taxa de B para calcular o volume."
+      },
+      {
+        "text": "Após 8 min, os dois têm 30 L.",
+        "reason": "Obtém a função de A a partir de duas medições, iguala os volumes e interpreta as coordenadas."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "O volume de A cai 30 L em 3 min, portanto cai 10 L por minuto. Se em 2 min restam 90 L, no início havia 110 L. Igualando 110 − 10t a 70 − 5t, fica 40 = 5t e t = 8. Substituir 8 em qualquer expressão resulta em 30 L. O ponto (8, 30) indica o mesmo volume no mesmo instante."
+  },
+  {
+    "skillCode": "EF09MA16",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comprimento-de-trajeto-pelo-ponto-medio",
+    "statement": "Em uma planta quadriculada, A está em (−4, 2), B em (8, 18) e C em (2, 3). Cada unidade da malha vale 1 m. Um cabo sai de A, segue em linha reta até o ponto médio de AB e dali vai em linha reta até C. Quantos metros mede esse percurso?",
+    "options": [
+      {
+        "text": "13 m",
+        "reason": "Considera apenas os 6 m de deslocamento horizontal no primeiro trecho e soma os 7 m do segundo."
+      },
+      {
+        "text": "17 m",
+        "reason": "Localiza o ponto médio e soma o comprimento diagonal do primeiro trecho ao comprimento vertical do segundo."
+      },
+      {
+        "text": "21 m",
+        "reason": "Troca o trecho reto diagonal por um caminho de 6 m na horizontal e 8 m na vertical."
+      },
+      {
+        "text": "27 m",
+        "reason": "Conta toda a distância de A a B em vez da distância de A até o ponto médio."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "De A a B são 12 unidades na horizontal e 16 na vertical. O ponto médio está na metade do deslocamento, em (2, 10). De A até esse ponto, a diagonal do triângulo retângulo com lados 6 m e 8 m mede 10 m, pois 6² + 8² = 10². Dali a C, as duas posições têm a mesma coordenada horizontal, e a distância vertical é 10 − 3 = 7 m. São 17 m ao todo."
+  },
+  {
+    "skillCode": "EF09MA20",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-sorteios-por-evento-complementar",
+    "statement": "Uma sacola tem quatro fichas vermelhas e duas azuis, iguais ao toque. A cada retirada, todas as fichas que estão na sacola têm a mesma chance de sair. Serão feitas duas retiradas. Em qual plano é maior a chance de obter pelo menos uma ficha azul?",
+    "supportText": "Plano R: devolver a ficha após a primeira retirada.\nPlano S: guardar fora da sacola a ficha da primeira retirada.",
+    "options": [
+      {
+        "text": "Plano R: 4/9, contra 2/5 no plano S.",
+        "reason": "Compara as probabilidades de duas fichas vermelhas, evento contrário ao solicitado."
+      },
+      {
+        "text": "As chances são iguais, 5/9 nos dois planos.",
+        "reason": "Mantém a probabilidade da segunda retirada igual mesmo quando a primeira ficha ficou fora da sacola."
+      },
+      {
+        "text": "Plano S: 3/5, contra 5/9 no plano R.",
+        "reason": "Calcula a chance de obter duas vermelhas, considerando se houve reposição, e subtrai de 1 em cada plano."
+      },
+      {
+        "text": "As chances são iguais, 2/3 nos dois planos.",
+        "reason": "Soma as duas chances individuais de sair azul e conta duas vezes os casos em que as duas retiradas dão azul."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "O único modo de não obter nenhuma azul é tirar duas vermelhas. No plano R, isso ocorre com chance (4/6) × (4/6) = 4/9, então a chance desejada é 5/9. No plano S, tirada uma vermelha primeiro, restam três vermelhas entre cinco fichas. A chance de duas vermelhas é (4/6) × (3/5) = 2/5, e a chance desejada é 3/5. Comparando 27/45 com 25/45, o plano S tem a maior chance."
+  }
+]

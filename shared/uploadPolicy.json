@@ -1,0 +1,10 @@
+{
+  "imageExtensions": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"],
+  "groups": [
+    { "extensions": [".svg"], "maxMiB": 2 },
+    { "extensions": [".jpg", ".jpeg", ".png", ".gif", ".webp"], "maxMiB": 10 },
+    { "extensions": [".txt", ".csv"], "maxMiB": 5 },
+    { "extensions": [".pdf", ".doc", ".docx", ".ppt", ".pptx", ".xls", ".xlsx", ".mp3", ".wav"], "maxMiB": 100 },
+    { "extensions": [".mp4", ".webm", ".ogg", ".mov"], "maxMiB": 500 }
+  ]
+}

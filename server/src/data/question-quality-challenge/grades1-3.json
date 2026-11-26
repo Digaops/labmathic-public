@@ -1,0 +1,142 @@
+[
+  {
+    "skillCode": "EF01MA10",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "recompor-dois-termos-de-uma-sequencia",
+    "statement": "Na fila de cartões, os números aumentam sempre a mesma quantidade. Dois cartões estão virados. Quais números aparecem nesses cartões, na ordem da fila?",
+    "supportText": "Cartões na fila: 4, ?, ?, 10, 12.",
+    "options": [
+      { "text": "5 e 6.", "reason": "Pode ter contado de um em um a partir do 4, sem usar a diferença entre 10 e 12." },
+      { "text": "6 e 8.", "reason": "Mantém o passo de dois entre todos os cartões e respeita a ordem da fila." },
+      { "text": "8 e 6.", "reason": "Pode ter encontrado os dois números voltando a partir do 10 e mantido a ordem em que os descobriu." },
+      { "text": "6 e 9.", "reason": "Pode ter usado o passo certo ao sair do 4 e depois escolhido um número imediatamente antes do 10." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Do 10 para o 12, o número aumenta em 2. Esse passo é sempre o mesmo. Ao partir de 4 e ir de dois em dois, a fila fica 4, 6, 8, 10, 12."
+  },
+  {
+    "skillCode": "EF01MA15",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "ordenar-comprimentos-por-comparacoes",
+    "statement": "A fita azul é mais comprida que a verde. A fita amarela é mais comprida que a azul. Em que ordem podemos arrumar as fitas da mais curta à mais comprida?",
+    "options": [
+      { "text": "Amarela, azul, verde.", "reason": "Ordena os comprimentos corretamente, mas começa pela fita mais comprida." },
+      { "text": "Verde, amarela, azul.", "reason": "Pode ter identificado a fita mais curta e trocado as posições da azul e da amarela." },
+      { "text": "Verde, azul, amarela.", "reason": "Usa as duas informações para começar pela fita verde, passar pela azul e terminar pela amarela." },
+      { "text": "Azul, verde, amarela.", "reason": "Mantém a fita amarela como a mais comprida, mas inverte a primeira comparação." }
+    ],
+    "correctIndex": 2,
+    "explanation": "A verde é mais curta que a azul, e a azul é mais curta que a amarela. A azul fica entre as duas."
+  },
+  {
+    "skillCode": "EF01MA21",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "relacionar-linhas-de-uma-tabela-de-votos",
+    "statement": "A turma votou na brincadeira do recreio. Quais duas brincadeiras receberam, juntas, a mesma quantidade de votos que a dança?",
+    "supportText": "Brincadeira — votos\nAmarelinha — 3\nCorda — 5\nDança — 8\nEsconde-esconde — 4\nPega-pega — 2",
+    "options": [
+      { "text": "Amarelinha e corda.", "reason": "Localiza as duas contagens na tabela e reúne 3 e 5 votos para chegar a 8." },
+      { "text": "Amarelinha e esconde-esconde.", "reason": "Reúne 3 e 4 votos, que ficam a um voto do total procurado." },
+      { "text": "Corda e esconde-esconde.", "reason": "Reúne 5 e 4 votos, um a mais que o total procurado." },
+      { "text": "Esconde-esconde e pega-pega.", "reason": "Reúne 4 e 2 votos, que dão 6, sem atingir o total da dança." }
+    ],
+    "correctIndex": 0,
+    "explanation": "A tabela mostra que a dança teve 8 votos. A amarelinha teve 3 e a corda teve 5. Juntando 3 e 5, também obtemos 8."
+  },
+  {
+    "skillCode": "EF02MA07",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "reagrupar-um-total-em-parcelas-iguais",
+    "statement": "Mara pôs 5 fichas em cada um de 4 envelopes. Ela vai usar 5 envelopes e manter o total de fichas. Todos os envelopes devem ficar com a mesma quantidade. Qual distribuição funciona?",
+    "options": [
+      { "text": "5 envelopes com 3 fichas em cada.", "reason": "Reduz a quantidade por envelope, mas os cinco grupos de três só usam 15 fichas." },
+      { "text": "5 envelopes com 5 fichas em cada.", "reason": "Mantém a quantidade de cada envelope, mas o envelope a mais aumenta o total para 25 fichas." },
+      { "text": "5 envelopes com 6 fichas em cada.", "reason": "Aumenta o número de envelopes e a quantidade em cada um, chegando a 30 fichas." },
+      { "text": "5 envelopes com 4 fichas em cada.", "reason": "Reorganiza as mesmas 20 fichas, em cinco grupos iguais de quatro." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Os 4 envelopes com 5 fichas somam 5 + 5 + 5 + 5 = 20. Com 5 envelopes de 4 fichas, a soma é 4 + 4 + 4 + 4 + 4, também 20."
+  },
+  {
+    "skillCode": "EF02MA19",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-duracoes-atravessando-a-hora",
+    "statement": "Edu e Luma anotaram a hora de começar e de terminar a leitura. Quem leu por mais tempo e por quantos minutos a mais?",
+    "supportText": "Leitor — início — fim\nEdu — 09:55 — 10:10\nLuma — 10:05 — 10:25",
+    "options": [
+      { "text": "Edu leu 5 minutos a mais.", "reason": "Pode ter encontrado a diferença de cinco minutos, mas atribuído o maior tempo a quem começou primeiro." },
+      { "text": "Luma leu 15 minutos a mais.", "reason": "Pode ter comparado só os horários de término, sem considerar que Luma também começou mais tarde." },
+      { "text": "Luma leu 5 minutos a mais.", "reason": "Compara os 20 minutos de leitura de Luma com os 15 de Edu." },
+      { "text": "Os dois leram pelo mesmo tempo.", "reason": "Pode ter percebido que as leituras coincidiram em parte e tomado essa sobreposição como sinal de durações iguais." }
+    ],
+    "correctIndex": 2,
+    "explanation": "Edu leu 5 minutos até as 10 horas e mais 10 minutos, num total de 15. Luma leu 20 minutos, das 10:05 às 10:25. A diferença entre 20 e 15 é de 5 minutos."
+  },
+  {
+    "skillCode": "EF02MA22",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-aumentos-em-tabela-de-dupla-entrada",
+    "statement": "A escola contou quantos estudantes participaram das oficinas em dois dias. De segunda para terça, qual oficina teve o maior aumento no número de participantes?",
+    "supportText": "Oficina — segunda — terça\nDesenho — 9 — 14\nFutebol — 12 — 15\nLeitura — 16 — 17\nPular corda — 8 — 10",
+    "options": [
+      { "text": "Leitura.", "reason": "Pode ter escolhido o maior total de terça, 17, sem observar que o aumento foi de apenas 1." },
+      { "text": "Desenho.", "reason": "Compara os dois dias de cada oficina e encontra em Desenho o maior aumento, de 5 participantes." },
+      { "text": "Futebol.", "reason": "Pode ter comparado Futebol com Pular corda e observado o aumento de 3, sem examinar o aumento de Desenho." },
+      { "text": "Pular corda.", "reason": "Pode ter escolhido a oficina que começou com menos participantes, sem calcular quanto o grupo cresceu." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Desenho ganhou 5 participantes, Futebol ganhou 3, Leitura ganhou 1 e Pular corda ganhou 2. A maior diferença da segunda para a terça foi a de Desenho."
+  },
+  {
+    "skillCode": "EF03MA08",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "interpretar-resto-e-minimizar-recipientes",
+    "statement": "A biblioteca vai levar 29 livros para outra escola. Em cada caixa cabem até 6 livros. Qual plano leva todos os livros usando o menor número de caixas?",
+    "options": [
+      { "text": "Usar 4 caixas, com 6 livros em cada.", "reason": "Considera apenas as quatro caixas completas e deixa sem caixa os cinco livros restantes." },
+      { "text": "Usar 5 caixas, com 5 livros em cada.", "reason": "Encontra o número mínimo de caixas, mas o plano proposto só leva 25 livros." },
+      { "text": "Usar 6 caixas, com 5 livros em cinco caixas e 4 na última.", "reason": "Leva todos os livros, mas usa uma caixa a mais que o necessário." },
+      { "text": "Usar 5 caixas, com 6 livros em quatro caixas e 5 na última.", "reason": "Usa quatro caixas completas para 24 livros e mais uma para os 5 restantes." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Quatro caixas levam no máximo 24 livros. Sobram 5, que cabem numa quinta caixa. Assim, 5 caixas bastam e 4 não bastam."
+  },
+  {
+    "skillCode": "EF03MA11",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "preservar-diferenca-ajustando-os-dois-numeros",
+    "statement": "Em um jogo, Lia começou com 58 fichas e entregou 27. Rui começou com 59. Ele quer ficar com a mesma quantidade que Lia depois de entregar algumas fichas. Qual registro resolve o problema?",
+    "options": [
+      { "text": "58 − 27 = 59 − 28.", "reason": "Rui começa com uma ficha a mais, mas também entrega uma a mais. A quantidade restante fica igual." },
+      { "text": "58 − 27 = 59 − 27.", "reason": "Pode ter mantido o número de fichas entregues, sem compensar que Rui começou com uma a mais." },
+      { "text": "58 − 27 = 59 − 26.", "reason": "Pode ter diminuído a entrega em uma ficha para tentar compensar o aumento, mas assim Rui fica com duas a mais." },
+      { "text": "58 − 27 = 59 − 29.", "reason": "Pode ter percebido que Rui precisa entregar mais fichas, mas compensou a diferença inicial com duas fichas em vez de uma." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Rui tem uma ficha a mais no início. Ele precisa entregar 28, uma a mais do que Lia. As duas contas dão 31 fichas restantes."
+  },
+  {
+    "skillCode": "EF03MA19",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-medidas-com-origem-fora-do-zero",
+    "statement": "Duas fitas foram colocadas em uma régua. As pontas de cada fita estão sobre as marcas indicadas. Qual fita é mais comprida e por quanto?",
+    "supportText": "Fita A — da marca de 3 cm à de 12 cm.\nFita B — da marca de 6 cm à de 14 cm.",
+    "options": [
+      { "text": "A fita B é 2 cm mais comprida.", "reason": "Pode ter comparado apenas as marcas do fim, 14 e 12, sem considerar onde cada fita começou." },
+      { "text": "A fita A é 3 cm mais comprida.", "reason": "Pode ter comparado apenas as marcas do início, 6 e 3, sem considerar onde cada fita terminou." },
+      { "text": "A fita A é 1 cm mais comprida.", "reason": "Mede cada distância entre as duas pontas e compara os 9 cm de A com os 8 cm de B." },
+      { "text": "A fita B é 1 cm mais comprida.", "reason": "Pode ter calculado a diferença de 1 cm, mas escolhido B por ela terminar em uma marca maior." }
+    ],
+    "correctIndex": 2,
+    "explanation": "A fita A ocupa 12 − 3 = 9 cm. A fita B ocupa 14 − 6 = 8 cm. A fita A é 1 cm mais comprida."
+  }
+]

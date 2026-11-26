@@ -1,0 +1,31 @@
+{
+  "version": "teacher-access-v1",
+  "flags": {
+    "institutions.read_model": "Consulta de escola e vínculos",
+    "classes.core": "Turmas",
+    "classes.assessment_assignments": "Avaliações da turma",
+    "classes.assessment_delivery": "Aplicação de avaliações",
+    "classes.assessment_exemptions": "Dispensa antes da avaliação",
+    "classes.student_assessment_portal": "Acesso do estudante à avaliação",
+    "classes.assessment_results": "Resultados",
+    "classes.learning_recovery": "Planos de recomposição",
+    "pedagogy.operational_cycle": "Banco 2.0 e devolutivas",
+    "question_bank.typed_preview": "Exemplos de formatos",
+    "question_bank.feedback_preview": "Exemplos de devolutivas",
+    "question_bank.catalog_preview": "Exemplos do Banco 2.0"
+  },
+  "features": [
+    { "id": "institutions", "title": "Consultar escola e vínculos", "group": "work", "requires": ["institutions.read_model"] },
+    { "id": "classes", "title": "Organizar turmas", "group": "work", "requires": ["classes.core"] },
+    { "id": "assessments", "title": "Preparar avaliações da turma", "group": "work", "requires": ["classes.core", "classes.assessment_assignments"] },
+    { "id": "online", "title": "Aplicar avaliações on-line", "group": "work", "requires": ["classes.core", "classes.assessment_assignments", "classes.assessment_delivery", "classes.student_assessment_portal"] },
+    { "id": "exemptions", "title": "Dispensar estudante antes da avaliação", "group": "work", "requires": ["classes.core", "classes.assessment_assignments", "classes.assessment_delivery", "classes.assessment_exemptions"] },
+    { "id": "results", "title": "Consultar e corrigir resultados", "group": "work", "requires": ["classes.core", "classes.assessment_assignments", "classes.assessment_results"] },
+    { "id": "recovery", "title": "Criar e acompanhar recomposição", "group": "work", "requires": ["classes.core", "classes.assessment_assignments", "classes.assessment_results", "classes.learning_recovery"] },
+    { "id": "bank", "title": "Revisar questões no Banco 2.0", "group": "work", "requires": ["pedagogy.operational_cycle"] },
+    { "id": "feedback", "title": "Trabalhar nas devolutivas da turma", "group": "work", "requires": ["pedagogy.operational_cycle", "classes.core", "classes.assessment_assignments", "classes.assessment_results"] },
+    { "id": "formats_example", "title": "Exemplos de formatos", "group": "examples", "requires": ["question_bank.typed_preview"] },
+    { "id": "feedback_example", "title": "Exemplos de devolutivas", "group": "examples", "requires": ["question_bank.feedback_preview"] },
+    { "id": "bank_example", "title": "Exemplos do Banco 2.0", "group": "examples", "requires": ["question_bank.catalog_preview"] }
+  ]
+}

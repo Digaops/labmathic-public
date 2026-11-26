@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "catalog_name": "LabMathic - Imagens aprovadas do Banco de Questões",
+  "images": [
+    {
+      "question_code": "EF01MA01-Q001",
+      "grade": "1º Ano - EF",
+      "statement": "Na sala de aula há 12 alunos sentados em roda. Nesse caso, o número 12 indica o quê?",
+      "file": "EF01MA01-Q001-apoio-v1.jpeg",
+      "sha256": "4c575b53f36645007a78d3a0653a76431d24476aca0b31e5e5a3f4d7f813d216",
+      "status": "approved",
+      "prompt_summary": "Ilustração infantil de uma sala com 12 alunos sentados em roda."
+    },
+    {
+      "question_code": "EF01MA01-Q002",
+      "grade": "1º Ano - EF",
+      "statement": "Ana chegou em 3º lugar na corrida da escola. Nesse caso, o número 3 indica o quê?",
+      "file": "EF01MA01-Q002-apoio-v1.jpeg",
+      "sha256": "08589fd1748bcc8e7704c531317c41788afd9b5e54d921e9ce61a03a2ecb4276",
+      "status": "approved",
+      "prompt_summary": "Ilustração infantil de corrida escolar destacando a terceira colocação."
+    },
+    {
+      "question_code": "EF01MA01-Q003",
+      "grade": "1º Ano - EF",
+      "statement": "O ônibus que Pedro pega para ir à escola tem o número 405. Nesse caso, o número 405 serve para indicar o quê?",
+      "file": "EF01MA01-Q003-apoio-v1.png",
+      "sha256": "24c458de0170407c9505f715ae29e0891761990018e28bb7b64c19a25440ccc9",
+      "status": "approved",
+      "prompt_summary": "Ônibus escolar com o código 405 visível, em estilo educacional apropriado ao 1º ano."
+    },
+    {
+      "question_code": "EF01MA01-Q004",
+      "grade": "1º Ano - EF",
+      "statement": "Em uma caixa há 18 lápis de cor. Nesse caso, o número 18 indica o quê?",
+      "file": "EF01MA01-Q004-apoio-v1.png",
+      "sha256": "a5dfc46b437058c9e8b2410d4ec902c114d675d7c32d1e4fe8e60341e53c7a2e",
+      "status": "approved",
+      "prompt_summary": "Caixa com exatamente 18 lápis organizados para contagem por estudantes do 1º ano."
+    },
+    {
+      "question_code": "EF01MA01-Q005",
+      "grade": "1º Ano - EF",
+      "statement": "No campeonato, o time de Júlia ficou em 2º lugar. Nesse caso, o número 2 indica o quê?",
+      "file": "EF01MA01-Q005-apoio-v1.png",
+      "sha256": "5f3e7085286bfc2213b3a7c1228aa39cbd57163b61a7c41bebb5f7173ca07c42",
+      "status": "approved",
+      "prompt_summary": "Pódio com Júlia na segunda colocação, em estilo educacional infantil."
+    },
+    {
+      "question_code": "EF01MA01-Q006",
+      "grade": "1º Ano - EF",
+      "statement": "A casa de Marcos fica no número 27 da rua das Flores. Nesse caso, o número 27 serve para quê?",
+      "file": "EF01MA01-Q006-apoio-v1.png",
+      "sha256": "3cdc2e01b10a9d9c353520d06c062f1937ce7f1fb391a1eb3b04af762d555635",
+      "status": "approved",
+      "prompt_summary": "Casa com a placa 27 claramente visível, em estilo apropriado ao 1º ano."
+    },
+    {
+      "question_code": "EF01MA01-Q007",
+      "grade": "1º Ano - EF",
+      "statement": "Em uma mesa há 6 copos. Nesse caso, o número 6 indica o quê?",
+      "file": "EF01MA01-Q007-apoio-v1.png",
+      "sha256": "1a096b3d42ba5ac75a61b3c4b6eda6b07079f217e6e96fd4874cfe22d43a7086",
+      "status": "approved",
+      "prompt_summary": "Mesa com exatamente seis copos organizados em duas fileiras de três."
+    },
+    {
+      "question_code": "EF09MA01-Q003",
+      "grade": "9º Ano - EF",
+      "statement": "O número π é classificado como:",
+      "file": "EF09MA01-Q003-apoio-v1.png",
+      "sha256": "117bcc45e2f2c79c47ed057a1a820ed9821c03ef597314713e3b2e8d4d2bb92e",
+      "status": "approved",
+      "prompt_summary": "Diagrama técnico de círculo com C, d e π = C/d, sem revelar a classificação."
+    },
+    {
+      "question_code": "EF09MA01-Q006",
+      "grade": "9º Ano - EF",
+      "statement": "Qual número tem representação decimal infinita e não periódica?",
+      "file": "EF09MA01-Q006-apoio-v1.png",
+      "sha256": "17532fe7bdd47e87ae9292f4a4eb0a0c4f31f78a2fa903b47c31e2604a707930",
+      "status": "approved",
+      "prompt_summary": "Quadrado unitário com diagonal d e expansão 1,41421356…, sem escrever a resposta."
+    },
+    {
+      "question_code": "EF09MA01-Q010",
+      "grade": "9º Ano - EF",
+      "statement": "Reconhecer números racionais e irracionais é importante porque:",
+      "file": "EF09MA01-Q010-apoio-v1.png",
+      "sha256": "95679e4123acf378b80a2aad89691c2f5492f3253a1b689f30f15d0964cd0842",
+      "status": "approved",
+      "prompt_summary": "Infográfico técnico com 3/4, diagonal √2 e círculo π, apropriado ao 9º ano."
+    }
+  ]
+}

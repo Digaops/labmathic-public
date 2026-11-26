@@ -1,0 +1,22 @@
+{
+  "name": "biblioteca-digital",
+  "version": "1.0.0",
+  "description": "Biblioteca Digital Pedagógica",
+  "main": "server/src/index.js",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "test": "npm --prefix server test",
+    "ci:verify": "npm --prefix server test && npm --prefix client test && npm --prefix server run ci:migrations:rehearse && npm --prefix client run build",
+    "backup": "cd server && npm run backup",
+    "backup:offsite": "npm --prefix server run backup:offsite",
+    "backup:offsite:maintenance": "npm --prefix server run backup:offsite:maintenance",
+    "question-images:sync": "npm --prefix server run question-images:sync --",
+    "build": "npm run build:client",
+    "build:client": "npm --prefix client ci --include=dev && npm --prefix client run build",
+    "postinstall": "cd server && npm install --production"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  }
+}

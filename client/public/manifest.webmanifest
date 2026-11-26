@@ -1,0 +1,17 @@
+{
+  "name": "LabMathics - Laboratorios Educacionais",
+  "short_name": "LabMathics",
+  "description": "Biblioteca digital com materiais pedagogicos, banco de questoes e simulados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#1A73E8",
+  "icons": [
+    {
+      "src": "/logos/Favicon-LabMathic.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

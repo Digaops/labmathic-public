@@ -1,0 +1,15 @@
+{
+  "version": "teacher-pilot-access-v1",
+  "flags": {
+    "question_bank.numeric_drafts": "Criação de questões numéricas",
+    "classes.numeric_assessments": "Atividades com respostas numéricas",
+    "classes.student_feedback_release": "Orientação individual ao estudante",
+    "content.issue_review": "Relatos de problemas no acervo"
+  },
+  "features": [
+    { "id": "numeric_authoring", "title": "Criar questões numéricas", "group": "pilots", "hint": "O professor cria e confere a questão; outra pessoa da administração faz a revisão.", "requires": ["question_bank.numeric_drafts"] },
+    { "id": "numeric_assessments", "title": "Preparar atividade com respostas numéricas", "group": "pilots", "hint": "Também exige questões próprias aprovadas e uma turma com estudantes. Esta consulta não verifica esses dados.", "requires": ["classes.core", "classes.assessment_assignments", "classes.numeric_assessments"] },
+    { "id": "student_feedback", "title": "Enviar orientação ao estudante", "group": "pilots", "hint": "O envio depende de avaliação encerrada, entrega concluída e conferência do professor.", "requires": ["classes.core", "classes.assessment_assignments", "classes.assessment_results", "classes.student_feedback_release"] },
+    { "id": "content_issues", "title": "Informar problema no acervo", "group": "pilots", "hint": "Permite relatar problemas em questões e materiais acessíveis à conta; não altera o conteúdo automaticamente.", "requires": ["content.issue_review"] }
+  ]
+}

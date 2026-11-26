@@ -1,0 +1,141 @@
+[
+  {
+    "skillCode": "EF04MA07",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-quocientes-com-reuniao-de-restos",
+    "statement": "Uma turma tem 47 bolas e outra tem 31. Cada saco cheio leva 6 bolas. Quantos sacos cheios podem montar sem misturar bolas das turmas no mesmo saco? E se puderem misturar?",
+    "options": [
+      { "text": "13 com as turmas separadas e 13 com as bolas reunidas.", "reason": "Pode ter dividido o total por 6 nos dois casos, desconsiderando a separação por turma." },
+      { "text": "12 com as turmas separadas e 13 com as bolas reunidas.", "reason": "Calcula 7 e 5 sacos separados e percebe que as sobras de 5 e 1 bola formam outro saco." },
+      { "text": "12 com as turmas separadas e 12 com as bolas reunidas.", "reason": "Pode ter calculado os sacos por turma e descartado as sobras mesmo quando elas podem ser reunidas." },
+      { "text": "12 com as turmas separadas e 14 com as bolas reunidas.", "reason": "Pode ter contado um saco a mais para cada sobra, embora as duas sobras juntas encham só um." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Com 47 bolas, enchem-se 7 sacos e sobram 5 bolas. Com 31, enchem-se 5 sacos e sobra 1. Separadas, são 12 sacos cheios. Juntas, as 6 bolas que sobraram enchem mais um, chegando a 13."
+  },
+  {
+    "skillCode": "EF04MA19",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "reconstruir-figura-refletida-com-casas-nomeadas",
+    "statement": "Lara pintou as casas B1, C1 e C2. Ela quer pintar, do outro lado da linha, a imagem dessa figura como apareceria no espelho. Quais casas deve pintar?",
+    "supportText": "Na malha de quadradinhos, as colunas vão de A a F, da esquerda para a direita. As linhas vão de 1 a 3, de cima para baixo. A letra indica a coluna e o número indica a linha. A linha de espelho fica entre as colunas C e D.",
+    "options": [
+      { "text": "D1, E1 e E2.", "reason": "Pode ter posicionado a parte de cima corretamente e repetido a orientação da figura na parte de baixo." },
+      { "text": "D3, E3 e D2.", "reason": "Pode ter trocado também as linhas superior e inferior, embora o espelho esteja entre duas colunas." },
+      { "text": "D1, E1 e D2.", "reason": "Cada casa refletida fica na mesma linha e à mesma distância da linha de espelho, do outro lado." },
+      { "text": "E1, F1 e E2.", "reason": "Pode ter invertido a orientação e deslocado a imagem uma coluna além do lugar correto." }
+    ],
+    "correctIndex": 2,
+    "explanation": "A reflexão mantém o número da linha. C e D são as colunas mais próximas do espelho; B e E estão um quadradinho mais longe. Assim, B1 vira E1, C1 vira D1 e C2 vira D2."
+  },
+  {
+    "skillCode": "EF04MA27",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-totais-e-tendencias-por-turno",
+    "statement": "A tabela mostra quantos livros foram emprestados em cada turno na biblioteca. Qual frase resume corretamente os dados dos dois turnos e o total de cada mês?",
+    "supportText": "Mês | Manhã | Tarde\nAbril | 23 | 15\nMaio | 18 | 20\nJunho | 14 | 23",
+    "options": [
+      { "text": "A tarde superou a manhã só em junho. O total foi igual em abril e maio e caiu 1 em junho.", "reason": "Pode ter calculado os totais, mas deixado de observar que, em maio, a tarde também superou a manhã: 20 contra 18." },
+      { "text": "A manhã caiu e a tarde subiu. O total de maio ficou 5 acima do de abril.", "reason": "Pode ter notado a subida de 5 na tarde em maio e ignorado a queda de 5 na manhã." },
+      { "text": "A diferença entre os turnos foi menor em junho. O total foi igual em abril e maio e caiu 1 em junho.", "reason": "Pode ter confundido a pequena mudança no total de junho com a diferença de 9 livros entre os turnos nesse mês." },
+      { "text": "A manhã caiu e a tarde subiu. O total foi igual em abril e maio e caiu 1 em junho.", "reason": "Compara as duas colunas por turno e confere, nas linhas, os totais 38, 38 e 37." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Na manhã foram 23, 18 e 14 livros. Na tarde foram 15, 20 e 23. Somando cada linha, abril tem 38 livros, maio também tem 38 e junho tem 37."
+  },
+  {
+    "skillCode": "EF05MA05",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "localizar-e-ordenar-fracoes-decimais-nos-decimos",
+    "statement": "Uma reta de 0 a 1 tem marcas a cada décimo. A turma quer colocar nela os pontos A = 0,78, B = 3/4 e C = 4/5. Qual descrição coloca os três pontos no lugar certo?",
+    "options": [
+      { "text": "B e A ficam entre 0,7 e 0,8, nessa ordem. C fica em 0,8.", "reason": "Usa as equivalências 3/4 = 0,75 e 4/5 = 0,8 para ordenar e localizar as três medidas." },
+      { "text": "A e B ficam entre 0,7 e 0,8, nessa ordem. C fica em 0,8.", "reason": "Pode ter localizado as frações próximas do décimo certo e invertido a ordem de 0,75 e 0,78." },
+      { "text": "B fica em 0,7. A fica entre 0,7 e 0,8. C fica em 0,8.", "reason": "Pode ter descartado os centésimos de 0,75 ao marcar 3/4." },
+      { "text": "B e A ficam entre 0,7 e 0,8, nessa ordem. C fica antes de B.", "reason": "Pode ter comparado apenas os denominadores e suposto que 4/5 seja menor do que 3/4." }
+    ],
+    "correctIndex": 0,
+    "explanation": "Três quartos equivalem a 75 centésimos, ou 0,75. Entre 0,7 e 0,8 ficam B = 0,75 e A = 0,78, com B à esquerda de A. Quatro quintos equivalem a oito décimos, exatamente na marca 0,8."
+  },
+  {
+    "skillCode": "EF05MA13",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "repartir-total-e-identificar-fracao-de-uma-parte",
+    "statement": "A escola vai plantar 90 mudas em dois canteiros. Para cada 2 mudas no Verde, serão plantadas 3 no Azul. Qual partilha segue essa regra e indica que parte do total vai para o Azul?",
+    "options": [
+      { "text": "Azul com 45, Verde com 45. O Azul recebe metade do total.", "reason": "Pode ter repartido em duas partes iguais e ignorado a regra de 3 mudas para cada 2." },
+      { "text": "Azul com 54, Verde com 36. O Azul recebe 3/5 do total.", "reason": "Organiza a partilha em grupos de 5 mudas, sendo 3 para o Azul e 2 para o Verde." },
+      { "text": "Azul com 54, Verde com 36. O Azul recebe 3/2 do total.", "reason": "Pode ter feito a partilha correta, mas comparado Azul com Verde quando a pergunta compara Azul com o total." },
+      { "text": "Azul com 36, Verde com 54. O Azul recebe 2/5 do total.", "reason": "Pode ter dividido em grupos de 5 e trocado qual cor recebe as 3 mudas de cada grupo." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Cada grupo de 5 tem 3 mudas para o Azul e 2 para o Verde. Há 18 grupos em 90 mudas. Então o Azul recebe 18 × 3 = 54 mudas e o Verde recebe 18 × 2 = 36. O Azul recebe 3 das 5 mudas de cada grupo, isto é, 3/5 do total."
+  },
+  {
+    "skillCode": "EF05MA20",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "refutar-perimetro-constante-com-area-igual",
+    "statement": "Pedro afirma que todos os retângulos de 24 quadradinhos iguais têm o mesmo perímetro. A turma vai construir dois retângulos com 24 quadradinhos cada, sem lacunas nem sobreposição. Qual comparação mostra que Pedro está enganado?",
+    "options": [
+      { "text": "2 por 12 e 12 por 2. Têm 24 quadradinhos e perímetros diferentes porque um está girado.", "reason": "Pode ter confundido a posição do retângulo com uma mudança em suas medidas." },
+      { "text": "3 por 6 e 2 por 9. Têm 18 quadradinhos cada e perímetros 18 e 22, em lados de quadradinho.", "reason": "Encontra áreas iguais e perímetros diferentes, mas usa 18 quadradinhos em cada retângulo em vez dos 24 pedidos." },
+      { "text": "3 por 8 e 4 por 6. Têm 24 quadradinhos cada e perímetros 22 e 20, em lados de quadradinho.", "reason": "Compara dois retângulos com a mesma área pedida e contornos de medidas diferentes." },
+      { "text": "3 por 8 e 4 por 6. Têm 24 quadradinhos e perímetros iguais, pois suas áreas são iguais.", "reason": "Pode ter calculado corretamente as áreas e suposto que a igualdade se estende aos perímetros." }
+    ],
+    "correctIndex": 2,
+    "explanation": "3 × 8 = 24 e 4 × 6 = 24. O primeiro contorno tem 3 + 8 + 3 + 8 = 22 lados de quadradinho. O segundo tem 4 + 6 + 4 + 6 = 20. Mesmo com áreas iguais a 24, os perímetros são diferentes."
+  },
+  {
+    "skillCode": "EF06MA23",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "ordenar-deslocamentos-para-contornar-obstaculo",
+    "statement": "Uma ficha começa na entrada, apontada para cima na malha. O destino está duas casas acima e três à direita da entrada. A primeira casa à direita da entrada está bloqueada. Que sequência leva a ficha ao destino sem passar pela casa bloqueada?",
+    "supportText": "A ficha anda de casa em casa na direção para a qual aponta. Virar à direita ou à esquerda é dar um quarto de volta no lugar, sem avançar. As demais casas estão livres.",
+    "options": [
+      { "text": "Virar à direita, avançar três casas, virar à esquerda e avançar duas casas.", "reason": "Chegaria ao destino se a malha estivesse livre, mas passa pela casa bloqueada no primeiro avanço." },
+      { "text": "Avançar duas casas, virar à esquerda e avançar três casas.", "reason": "Evita a casa bloqueada, mas termina três casas à esquerda em vez de à direita da entrada." },
+      { "text": "Avançar três casas, virar à direita e avançar duas casas.", "reason": "Evita a casa bloqueada, mas troca as distâncias do deslocamento para cima e para a direita." },
+      { "text": "Avançar duas casas, virar à direita e avançar três casas.", "reason": "Executa os dois deslocamentos na ordem que alcança o destino sem cruzar a casa bloqueada." }
+    ],
+    "correctIndex": 3,
+    "explanation": "Partindo da entrada e apontando para cima, a ficha sobe duas casas. Desse ponto, vira à direita e anda três casas até o destino. Percorrer primeiro as três casas à direita chegaria ao mesmo ponto, mas encontraria o bloqueio logo no começo."
+  },
+  {
+    "skillCode": "EF06MA29",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "inferir-ampliacao-de-area-a-partir-do-perimetro",
+    "statement": "Uma horta quadrada tem lado de 5 m. A turma quer ampliá-la sem mudar sua forma, usando três vezes o comprimento de cerca para contornar a nova horta. Qual será a nova área e como podemos saber?",
+    "options": [
+      { "text": "225 m². Cada lado passa a medir 15 m, então a área é 15 × 15.", "reason": "Relaciona o fator 3 no perímetro ao fator 3 em cada lado e ao fator 9 na área." },
+      { "text": "75 m². A área de 25 m² também triplica quando o perímetro triplica.", "reason": "Pode ter aplicado à área o mesmo fator de aumento do lado e do perímetro." },
+      { "text": "125 m². A um quadrado de 25 m² se soma só o quadrado de 10 m por 10 m.", "reason": "Pode ter contado o quadrado dos 10 m acrescentados a cada lado, esquecendo as duas faixas de 5 m por 10 m." },
+      { "text": "150 m². A área de 25 m² é multiplicada por 3 + 3, pois cada dimensão triplica.", "reason": "Pode ter reconhecido os aumentos nas duas dimensões, mas somado os fatores em vez de multiplicá-los." }
+    ],
+    "correctIndex": 0,
+    "explanation": "O contorno original é 4 × 5 = 20 m. Triplicando, a cerca terá 60 m e cada lado terá 60 ÷ 4 = 15 m. A área passa de 5 × 5 = 25 m² para 15 × 15 = 225 m², nove vezes a área original."
+  },
+  {
+    "skillCode": "EF06MA34",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "reordenar-decisoes-sem-mudar-o-destino",
+    "statement": "A biblioteca quer perguntar primeiro se o livro tem anotações no texto. Qual trecho completa o novo fluxograma e mantém o destino dos livros em todos os casos?",
+    "supportText": "Fluxograma atual. Início → Há páginas soltas?\nSe sim → Conserto.\nSe não → Há anotações no texto?\nCom anotações → Consulta em sala.\nSem anotações → Empréstimo.",
+    "options": [
+      { "text": "Com anotações, consulta. Sem anotações, conserto se houver páginas soltas e empréstimo se não houver.", "reason": "Pode ter deixado de conferir as páginas nos livros com anotações. Um livro anotado com páginas soltas deveria ir para conserto." },
+      { "text": "Com anotações, conserto se houver páginas soltas e consulta se não houver. Sem anotações, conserto se houver páginas soltas e empréstimo se não houver.", "reason": "Conserva o conserto para todo livro com páginas soltas e separa consulta de empréstimo quando as páginas estão firmes." },
+      { "text": "Com anotações, conserto se houver páginas soltas e empréstimo se não houver. Sem anotações, conserto se houver páginas soltas e consulta se não houver.", "reason": "Mantém corretamente o caminho dos livros com páginas soltas, mas troca os destinos dos livros com páginas firmes." },
+      { "text": "Com anotações, conserto se houver páginas soltas e consulta se não houver. Sem anotações, empréstimo.", "reason": "Pode ter deixado de conferir as páginas nos livros sem anotações. Se estiverem soltas, o destino ainda é conserto." }
+    ],
+    "correctIndex": 1,
+    "explanation": "Teste as quatro combinações. Com páginas soltas, o livro vai para conserto, com ou sem anotações. Sem páginas soltas, vai para consulta se tiver anotações e para empréstimo se não tiver. Assim, depois da pergunta sobre anotações, os dois caminhos ainda precisam perguntar pelas páginas."
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "skillCode": "EF09MA05",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "percentual-fator",
+    "statement": "Uma mochila de R$ 160 recebe desconto de 15%. Qual expressão dá diretamente o preço que será pago?",
+    "options": [
+      {
+        "text": "160 × 0,15",
+        "reason": "Pode ter calculado o valor do desconto em vez do preço final."
+      },
+      {
+        "text": "160 × 1,15",
+        "reason": "Pode ter tratado o desconto como acréscimo."
+      },
+      {
+        "text": "160 × 0,85",
+        "reason": "Depois do desconto, são pagos 85% do preço inicial."
+      },
+      {
+        "text": "160 − 15",
+        "reason": "Pode ter subtraído 15 reais em vez de 15% de 160 reais."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "Descontar 15% deixa 100% − 15% = 85% do preço. Assim, o preço final é 160 × 0,85 = R$ 136."
+  },
+  {
+    "skillCode": "EF09MA05",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "descontos-em-cadeia",
+    "statement": "Um fogão custa R$ 250. A loja reduz esse preço em 20% e concede mais 10% sobre o valor já reduzido. Qual é o preço final?",
+    "options": [
+      {
+        "text": "R$ 180",
+        "reason": "Aplica cada desconto sobre o valor que vigora naquele momento."
+      },
+      {
+        "text": "R$ 175",
+        "reason": "Pode ter somado 20% e 10% e aplicado 30% ao preço inicial."
+      },
+      {
+        "text": "R$ 200",
+        "reason": "Pode ter aplicado somente o primeiro desconto."
+      },
+      {
+        "text": "R$ 225",
+        "reason": "Pode ter aplicado somente o segundo desconto, usando o preço inicial."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "O primeiro desconto deixa R$ 250 × 0,80 = R$ 200. O segundo deixa R$ 200 × 0,90 = R$ 180. A redução total é de 28%, pois os descontos usam bases diferentes."
+  },
+  {
+    "skillCode": "EF09MA05",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "taxa-a-partir-de-valor-intermediario",
+    "statement": "Um equipamento de R$ 240 entra em promoção com 20% de desconto. Depois, no caixa, recebe outro desconto e sai por R$ 168. Qual taxa foi aplicada no caixa ao preço da promoção?",
+    "options": [
+      {
+        "text": "10%",
+        "reason": "Pode ter calculado a segunda redução de R$ 24 sobre o preço inicial de R$ 240."
+      },
+      {
+        "text": "30%",
+        "reason": "Pode ter calculado a redução total de R$ 72 sobre o preço inicial."
+      },
+      {
+        "text": "20%",
+        "reason": "Pode ter repetido a primeira taxa em vez de encontrar a segunda."
+      },
+      {
+        "text": "12,5%",
+        "reason": "Compara a segunda redução de R$ 24 com o preço promocional de R$ 192."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "Com o primeiro desconto, o preço passa de R$ 240 para R$ 192. No caixa, a redução foi de R$ 24. A taxa é 24 ÷ 192 = 0,125, ou 12,5%."
+  },
+  {
+    "skillCode": "EF09MA05",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "reversao-por-percentuais-iguais",
+    "statement": "O preço de um produto aumenta 25%. No mês seguinte, o novo preço cai 25%. Qual análise explica o resultado para qualquer preço inicial positivo?",
+    "options": [
+      {
+        "text": "O preço inicial volta, pois +25% e −25% têm soma zero.",
+        "reason": "Pode ter somado as duas taxas sem considerar a mudança de base."
+      },
+      {
+        "text": "O preço fica 6,25% abaixo do inicial, pois 1,25 × 0,75 = 0,9375.",
+        "reason": "Compara o produto dos fatores com o fator 1, que manteria o preço."
+      },
+      {
+        "text": "O preço fica 6,25% acima do inicial, pois a segunda taxa incide sobre um valor maior.",
+        "reason": "Identifica a base maior, mas inverte o efeito de um desconto maior em reais."
+      },
+      {
+        "text": "O preço fica 25% abaixo do inicial, pois basta considerar a redução final.",
+        "reason": "Pode ter aplicado a segunda taxa ao valor inicial e desconsiderado o aumento."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "O preço final é 0,9375 do inicial, ou 93,75%. A diferença para 100% é de 6,25%. A redução de 25% do preço já aumentado retira mais reais do que o aumento acrescentou."
+  },
+  {
+    "skillCode": "EF09MA05",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "reconstruir-base-do-percentual",
+    "statement": "Uma bicicleta usada foi vendida por R$ 306 depois de um desconto de 15%. Qual era o preço anunciado antes do desconto?",
+    "supportText": "Exemplo resolvido. Após um desconto de 20%, uma mesa custa R$ 240. O valor pago representa 80% do preço original. Para recuperar o preço inicial, calculamos 240 ÷ 0,80 = R$ 300.",
+    "options": [
+      {
+        "text": "R$ 260,10",
+        "reason": "Pode ter aplicado outro desconto de 15% sobre o preço pago."
+      },
+      {
+        "text": "R$ 351,90",
+        "reason": "Pode ter somado 15% do preço pago em vez de recuperar a base inicial."
+      },
+      {
+        "text": "R$ 360,00",
+        "reason": "Identifica R$ 306 como 85% da base e divide por 0,85."
+      },
+      {
+        "text": "R$ 321,00",
+        "reason": "Pode ter somado 15 reais ao preço pago, confundindo reais e porcentagem."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "Os R$ 306 correspondem a 85% do preço anunciado. Portanto, o preço original era 306 ÷ 0,85 = R$ 360. Para conferir, o desconto seria de R$ 54, resultando em R$ 306."
+  },
+  {
+    "skillCode": "EF09MA05",
+    "stage": "verification",
+    "difficulty": "dificil",
+    "family": "auditoria-de-taxas-na-planilha",
+    "statement": "Para preencher as taxas da planilha, a tesouraria compara fevereiro com janeiro, março com fevereiro e março com janeiro. Qual registro está correto, nessa ordem?",
+    "supportText": "Valores da mensalidade de uma oficina em três meses. Janeiro: R$ 80. Fevereiro: R$ 60. Março: R$ 72.",
+    "options": [
+      {
+        "text": "−25%, +20%, −10%",
+        "reason": "Usa janeiro como base na primeira e na terceira comparação, e fevereiro como base na segunda."
+      },
+      {
+        "text": "−25%, +15%, −10%",
+        "reason": "Pode ter utilizado janeiro como base para todas as comparações."
+      },
+      {
+        "text": "−25%, +20%, −5%",
+        "reason": "Pode ter obtido as taxas mensais corretamente e somado as duas para calcular a variação total."
+      },
+      {
+        "text": "−33,3%, +20%, −10%",
+        "reason": "Pode ter usado o preço de fevereiro como base da queda desde janeiro."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "A queda de R$ 20 sobre R$ 80 é de 25%. O aumento de R$ 12 sobre R$ 60 é de 20%. De janeiro a março, a queda é de R$ 8 sobre R$ 80, ou 10%."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "ritmo-unitario",
+    "statement": "Uma ciclista percorreu 48 km em 2 horas. Qual foi sua velocidade média nessa viagem?",
+    "options": [
+      {
+        "text": "96 km/h",
+        "reason": "Pode ter multiplicado a distância pelo tempo."
+      },
+      {
+        "text": "24 km/h",
+        "reason": "Divide a distância de 48 km pelo tempo de 2 horas."
+      },
+      {
+        "text": "48 km/h",
+        "reason": "Pode ter atribuído à distância total a unidade de velocidade."
+      },
+      {
+        "text": "12 km/h",
+        "reason": "Pode ter calculado 24 km/h e dividido novamente pelo tempo."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "Velocidade média é distância total dividida pelo tempo total. Como 48 ÷ 2 = 24, a ciclista percorreu, em média, 24 km por hora."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "comparar-razao-unitaria",
+    "statement": "Qual bairro tem maior densidade demográfica, e qual é essa densidade?",
+    "supportText": "Dados fictícios de dois bairros. Ipê: 1.800 moradores em 12 km². Lagoa: 1.400 moradores em 8 km².",
+    "options": [
+      {
+        "text": "Ipê, com 150 moradores por km².",
+        "reason": "Pode ter calculado a densidade de Ipê, mas escolhido o bairro com mais moradores no total."
+      },
+      {
+        "text": "Lagoa, com 150 moradores por km².",
+        "reason": "Pode ter escolhido o bairro correto e atribuído a ele o valor do outro."
+      },
+      {
+        "text": "Ipê, com 225 moradores por km².",
+        "reason": "Pode ter dividido os moradores de Ipê pela área de Lagoa."
+      },
+      {
+        "text": "Lagoa, com 175 moradores por km².",
+        "reason": "Compara a população por km² dos dois bairros."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "Em Ipê, 1.800 ÷ 12 = 150 moradores por km². Em Lagoa, 1.400 ÷ 8 = 175 moradores por km². Lagoa tem menos moradores no total e maior densidade."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "comparar-vazoes-apos-conversao",
+    "statement": "Qual torneira teve a maior vazão média, e quantos litros por minuto a mais ela forneceu?",
+    "supportText": "Em um teste, a torneira A encheu 24 L em 120 segundos. A torneira B encheu 20 L em 80 segundos.",
+    "options": [
+      {
+        "text": "B, 3 L/min a mais.",
+        "reason": "Compara a vazão das duas torneiras na mesma unidade de tempo."
+      },
+      {
+        "text": "A, 4 L/min a mais.",
+        "reason": "Pode ter comparado apenas os totais de água, medidos durante tempos diferentes."
+      },
+      {
+        "text": "B, 0,05 L/min a mais.",
+        "reason": "Pode ter encontrado a diferença em litros por segundo e mantido o número em litros por minuto."
+      },
+      {
+        "text": "B, 12 L/min a mais.",
+        "reason": "Pode ter calculado a vazão de A e usado esse valor como diferença."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "A torneira A forneceu 24 ÷ 2 = 12 L/min. Para B, 80 segundos equivalem a 4/3 de minuto, então 20 ÷ (4/3) = 15 L/min. A diferença é 3 L/min."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "velocidade-media-trechos-desiguais-no-tempo",
+    "statement": "Uma pessoa calculou 18 km/h para o percurso inteiro. Qual análise usa corretamente a distância e o tempo do trajeto?",
+    "supportText": "Uma entrega de bicicleta teve dois trechos sem paradas. Primeiro: 12 km em 30 minutos. Segundo: 12 km em 60 minutos.",
+    "options": [
+      {
+        "text": "18 km/h, pois é a média aritmética entre 24 km/h e 12 km/h.",
+        "reason": "Pode ter atribuído o mesmo peso a velocidades mantidas por tempos diferentes."
+      },
+      {
+        "text": "12 km/h, pois é a velocidade do trecho que durou mais.",
+        "reason": "Pode ter considerado apenas o trecho de maior duração."
+      },
+      {
+        "text": "16 km/h, pois foram 24 km em 1,5 hora.",
+        "reason": "Divide a distância total pelo tempo total."
+      },
+      {
+        "text": "24 km/h, pois as duas distâncias somam 24 km.",
+        "reason": "Pode ter usado a distância total como se o percurso durasse uma hora."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "O trajeto tem 12 + 12 = 24 km. O tempo foi de 90 minutos, ou 1,5 hora. A velocidade média, 24 ÷ 1,5 = 16 km/h, fica mais perto de 12 km/h porque o segundo trecho durou mais."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "comparar-razao-unitaria",
+    "statement": "Qual pacote tem o menor preço por quilograma, e qual é esse preço unitário?",
+    "supportText": "Exemplo resolvido. Um pacote de 250 g de café custa R$ 9. Como 250 g são 0,25 kg, o preço por quilograma é 9 ÷ 0,25 = R$ 36/kg. Dados da feira. Um pacote de 400 g de aveia custa R$ 8,00. Outro pacote, de 600 g, custa R$ 10,80.",
+    "options": [
+      {
+        "text": "O de 400 g, por R$ 20,00/kg.",
+        "reason": "Pode ter calculado um preço unitário, mas escolhido com base no menor preço do pacote."
+      },
+      {
+        "text": "O de 600 g, por R$ 18,00/kg.",
+        "reason": "Converte as massas em quilogramas e compara os preços por quilograma."
+      },
+      {
+        "text": "O de 600 g, por R$ 10,80/kg.",
+        "reason": "Pode ter usado o preço de 600 g como se fosse o preço de 1 kg."
+      },
+      {
+        "text": "O de 400 g, por R$ 32,00/kg.",
+        "reason": "Pode ter multiplicado o preço de 400 g por quatro para tentar chegar a 1 kg."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "O pacote menor custa 8 ÷ 0,4 = R$ 20/kg. O maior custa 10,80 ÷ 0,6 = R$ 18/kg, portanto tem o menor preço por quilograma."
+  },
+  {
+    "skillCode": "EF09MA07",
+    "stage": "verification",
+    "difficulty": "media",
+    "family": "prazo-a-partir-de-ritmo-medido",
+    "statement": "Supondo o mesmo ritmo do teste, qual previsão pode orientar a organização do trabalho?",
+    "supportText": "Ficha de teste do scanner da escola. Páginas digitalizadas: 45. Duração do teste: 3 minutos. Páginas a digitalizar no próximo uso: 120. Tempo disponível: 7 minutos.",
+    "options": [
+      {
+        "text": "Levará 5 minutos. Sobram 2 minutos.",
+        "reason": "Pode ter descontado as 45 páginas do teste do novo trabalho e calculado o tempo para as 75 restantes."
+      },
+      {
+        "text": "Levará 7 minutos. O prazo será usado por inteiro.",
+        "reason": "Pode ter confundido o tempo disponível com o tempo necessário."
+      },
+      {
+        "text": "Levará 9 minutos. Faltam 2 minutos.",
+        "reason": "Pode ter contado três blocos inteiros de 45 páginas, sem descontar o tempo das 15 páginas excedentes."
+      },
+      {
+        "text": "Levará 8 minutos. Falta 1 minuto.",
+        "reason": "Obtém 15 páginas por minuto e divide a quantidade solicitada por esse ritmo."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "O teste indica 45 ÷ 3 = 15 páginas por minuto. Para 120 páginas, são necessários 120 ÷ 15 = 8 minutos, um a mais que o prazo disponível."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "invariancia-de-preco-por-quantidade",
+    "statement": "Em uma papelaria, quatro canetas iguais custam R$ 12. A loja cobra o mesmo preço por caneta em qualquer quantidade. Qual par quantidade e preço mantém essa relação?",
+    "options": [
+      {
+        "text": "8 canetas por R$ 16.",
+        "reason": "Pode ter acrescentado ao preço o mesmo número que acrescentou à quantidade."
+      },
+      {
+        "text": "8 canetas por R$ 18.",
+        "reason": "Pode ter tratado o dobro da quantidade como aumento de apenas metade do preço."
+      },
+      {
+        "text": "8 canetas por R$ 6.",
+        "reason": "Pode ter usado proporcionalidade inversa ao dobrar a quantidade e dividir o preço por dois."
+      },
+      {
+        "text": "8 canetas por R$ 24.",
+        "reason": "Com preço unitário constante, dobrar a quantidade dobra o preço total."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "Cada caneta custa 12 ÷ 4 = R$ 3. Oito canetas custam 8 × 3 = R$ 24. A razão entre preço e quantidade é a mesma nos dois pares."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "escala-mapa-distancia-real",
+    "statement": "Em um mapa na escala 1:25.000, o segmento entre dois pontos mede 6 cm. Qual distância real em linha reta esse segmento representa?",
+    "options": [
+      {
+        "text": "0,15 km",
+        "reason": "Pode ter convertido 150.000 cm para quilômetros com um fator dez vezes maior do que o correto."
+      },
+      {
+        "text": "15 km",
+        "reason": "Pode ter convertido 150.000 cm para quilômetros com um fator dez vezes menor do que o correto."
+      },
+      {
+        "text": "1,5 km",
+        "reason": "Multiplica pelo fator de escala e converte centímetros para quilômetros."
+      },
+      {
+        "text": "150 km",
+        "reason": "Pode ter usado a conversão de metros para quilômetros sobre uma medida que ainda estava em centímetros."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "Cada centímetro no mapa representa 25.000 cm no terreno. Para 6 cm, são 150.000 cm. Como 1 km equivale a 100.000 cm, a distância é 1,5 km."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "tempo-com-mais-maquinas",
+    "statement": "Quatro impressoras iguais, trabalhando juntas, levam 45 minutos para imprimir um lote. Em quanto tempo seis impressoras iguais fariam o mesmo lote, com trabalho bem dividido e sem pausas?",
+    "options": [
+      {
+        "text": "22 minutos e 30 segundos.",
+        "reason": "Pode ter dividido por dois, como se o número de impressoras tivesse dobrado."
+      },
+      {
+        "text": "30 minutos.",
+        "reason": "Mantém o produto entre o número de impressoras e o tempo para o mesmo lote."
+      },
+      {
+        "text": "45 minutos.",
+        "reason": "Pode ter suposto que o tempo fica igual apesar da mudança na capacidade de impressão."
+      },
+      {
+        "text": "67 minutos e 30 segundos.",
+        "reason": "Pode ter aumentado o tempo na mesma razão em que aumentou o número de impressoras."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "O trabalho total equivale a 4 × 45 = 180 impressora-minutos. Dividindo esse trabalho por seis impressoras, cada uma opera por 180 ÷ 6 = 30 minutos."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "taxa-fixa-quebra-da-proporcionalidade",
+    "statement": "Uma pessoa afirma que o preço é diretamente proporcional à distância porque cada quilômetro adicional custa R$ 4. Qual conclusão é sustentada pela tabela?",
+    "supportText": "Preços de uma corrida de bicicleta por aplicativo. Para 1 km: R$ 8. Para 2 km: R$ 12. Para 4 km: R$ 20.",
+    "options": [
+      {
+        "text": "O preço cresce, mas não é diretamente proporcional. A distância dobra de 1 para 2 km, e o preço não dobra.",
+        "reason": "Usa a condição de duplicação para testar proporcionalidade direta."
+      },
+      {
+        "text": "O preço é diretamente proporcional. Acrescentar um quilômetro sempre acrescenta R$ 4.",
+        "reason": "Pode ter confundido aumento constante com razão preço por distância constante."
+      },
+      {
+        "text": "O preço é diretamente proporcional. As duas grandezas crescem juntas.",
+        "reason": "Pode ter tomado o crescimento das duas grandezas como condição suficiente."
+      },
+      {
+        "text": "O preço é inversamente proporcional. O preço por quilômetro diminui quando a distância aumenta.",
+        "reason": "Pode ter analisado o preço por quilômetro, enquanto a relação solicitada é entre preço total e distância."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "Se houvesse proporcionalidade direta, ao dobrar 1 km para 2 km, R$ 8 passariam a R$ 16. A tabela indica R$ 12. Uma parcela fixa de R$ 4, somada a R$ 4 por quilômetro, explica os valores."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "partilha-por-pesos",
+    "statement": "Três turmas com 10, 15 e 25 estudantes dividirão R$ 500 para materiais. A divisão será proporcional ao número de estudantes de cada turma. Quanto receberá a turma de 15 estudantes?",
+    "supportText": "Exemplo resolvido. Para dividir 84 mudas proporcionalmente entre 6 espaços do canteiro A e 8 do canteiro B, contamos 14 espaços ao todo. São 84 ÷ 14 = 6 mudas por espaço. A recebe 6 × 6 = 36 mudas, e B recebe 8 × 6 = 48 mudas.",
+    "options": [
+      {
+        "text": "R$ 100",
+        "reason": "Pode ter determinado o valor da turma de 10 estudantes."
+      },
+      {
+        "text": "R$ 250",
+        "reason": "Pode ter determinado o valor da turma de 25 estudantes."
+      },
+      {
+        "text": "R$ 166,67",
+        "reason": "Pode ter dividido o recurso em três parcelas iguais."
+      },
+      {
+        "text": "R$ 150",
+        "reason": "Usa 15 de 50 estudantes como a fração do total destinada à turma."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "As três turmas somam 50 estudantes. A turma de 15 representa 15/50 do total. Sua parte é 500 × 15/50 = R$ 150."
+  },
+  {
+    "skillCode": "EF09MA08",
+    "stage": "verification",
+    "difficulty": "dificil",
+    "family": "area-por-pessoas-e-horas",
+    "statement": "Considere que todas mantêm o mesmo ritmo individual de pintura, sem interferir no trabalho umas das outras. Que área pode ser prevista para o novo turno?",
+    "supportText": "Registro de um mutirão. Trabalho realizado: 24 m² pintados com 2 pessoas em 3 horas. Novo turno: 3 pessoas disponíveis por 4 horas.",
+    "options": [
+      {
+        "text": "36 m²",
+        "reason": "Pode ter ajustado a área para três pessoas e mantido as três horas originais."
+      },
+      {
+        "text": "32 m²",
+        "reason": "Pode ter ajustado a área para quatro horas e mantido duas pessoas."
+      },
+      {
+        "text": "48 m²",
+        "reason": "Considera juntos o tamanho da equipe e a duração do turno."
+      },
+      {
+        "text": "44 m²",
+        "reason": "Pode ter somado os efeitos separados das mudanças, deixando de considerar que a pessoa adicional também trabalha a hora extra."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "Com duas pessoas por três horas, há seis pessoa-horas e são pintados 24 m². Cada pessoa pinta 4 m² por hora. No novo turno há 3 × 4 = 12 pessoa-horas, suficientes para 48 m²."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "prerequisite",
+    "difficulty": "facil",
+    "family": "unidade-ausente-no-eixo",
+    "statement": "Um leitor escreveu que a espera média no posto Norte foi de 12 minutos. O que falta no gráfico para confirmar essa unidade?",
+    "supportText": "Transcrição de um gráfico de colunas do Jornal do Bairro, edição fictícia de maio de 2026. Título: Tempo médio de espera. Eixo horizontal: postos Norte e Sul. Eixo vertical: 0, 5, 10, 15 e 20. Colunas: Norte, 12. Sul, 16. Fonte informada: levantamento nas unidades em abril de 2026.",
+    "options": [
+      {
+        "text": "A unidade de tempo usada no eixo vertical.",
+        "reason": "O eixo informa a quantidade, mas não informa se o tempo está em minutos ou em outra unidade."
+      },
+      {
+        "text": "A identificação dos postos sob as colunas.",
+        "reason": "As categorias Norte e Sul já estão no eixo horizontal."
+      },
+      {
+        "text": "O mês em que o levantamento foi feito.",
+        "reason": "O mês está indicado na fonte e não fornece a unidade."
+      },
+      {
+        "text": "O total de pessoas atendidas em cada posto.",
+        "reason": "Esse dado ajuda a avaliar quantas pessoas contribuíram para a média, mas não esclarece a unidade."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "O eixo vertical tem números, mas não identifica a unidade de tempo. Sem essa unidade, é possível ler o valor 12, mas não confirmar que significa 12 minutos."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "eixo-truncado-e-altura-da-coluna",
+    "statement": "O boletim diz que a proporção dobrou porque a segunda coluna tem o dobro da altura da primeira. Qual avaliação dos dados é correta?",
+    "supportText": "Transcrição de um gráfico de colunas de um boletim fictício. Título: Domicílios atendidos em cada ano. Eixo vertical: 36%, 37%, 38%, 39% e 40%, com colunas desenhadas desde 36%. A coluna de 2024 termina em 38% e a de 2025 em 40%.",
+    "options": [
+      {
+        "text": "A proporção dobrou, pois a altura da segunda coluna é duas vezes maior.",
+        "reason": "Pode ter interpretado alturas medidas desde 36% como os valores totais."
+      },
+      {
+        "text": "A proporção cresceu 2 pontos percentuais. O eixo que começa em 36% produz o dobro da altura.",
+        "reason": "Distingue a variação da proporção da razão entre as alturas desenhadas."
+      },
+      {
+        "text": "A proporção cresceu 4 pontos percentuais. A segunda coluna tem essa altura acima de 36%.",
+        "reason": "Pode ter medido a segunda altura a partir do ponto de corte em vez de comparar os valores dos dois anos."
+      },
+      {
+        "text": "A proporção cresceu 2% em relação a 2024. A diferença entre 40 e 38 mostra a taxa relativa.",
+        "reason": "Pode ter confundido pontos percentuais de diferença com crescimento relativo à base."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "As colunas têm alturas de 2 e 4 pontos acima de 36%. Essa escolha faz a segunda parecer duas vezes maior. Os valores reais passam de 38% para 40%, uma diferença de 2 pontos percentuais."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "application",
+    "difficulty": "media",
+    "family": "serie-sem-identificacao-na-legenda",
+    "statement": "A reportagem atribui o crescimento à biblioteca escolar. Qual informação o leitor precisa para conferir essa atribuição?",
+    "supportText": "Transcrição de um gráfico de linhas de uma reportagem fictícia. Título: Visitas às bibliotecas municipal e escolar. Eixo horizontal: abril e maio de 2026. Eixo vertical: número de visitas, de 0 a 160. Linha marcada com círculos: 80 em abril e 140 em maio. Linha marcada com quadrados: 120 em abril e 100 em maio. Nenhuma linha tem nome na legenda.",
+    "options": [
+      {
+        "text": "Quantas visitas foram registradas na linha com círculos em maio.",
+        "reason": "O valor de maio já está disponível, mas não indica a biblioteca à qual pertence."
+      },
+      {
+        "text": "A unidade do eixo vertical.",
+        "reason": "O eixo já especifica que os valores são números de visitas."
+      },
+      {
+        "text": "O mês de início da comparação.",
+        "reason": "O período de abril a maio está explícito e não identifica as bibliotecas."
+      },
+      {
+        "text": "Qual marca, círculo ou quadrado, identifica a biblioteca escolar.",
+        "reason": "A identificação da série liga a linha de crescimento à biblioteca mencionada."
+      }
+    ],
+    "correctIndex": 3,
+    "explanation": "A linha com círculos cresce, e a linha com quadrados cai. Sem identificar a biblioteca de cada linha, as duas leituras são possíveis. A legenda precisa ligar cada marca à biblioteca correspondente."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "reasoning",
+    "difficulty": "dificil",
+    "family": "comparar-paineis-com-escalas-diferentes",
+    "statement": "O título diz que A cresceu duas vezes mais que B em pontos percentuais, com base na altura da subida. Qual resposta analisa corretamente os dois painéis?",
+    "supportText": "Uma matéria fictícia exibe dois gráficos de linha em painéis de mesma largura e altura. Os eixos verticais têm marcações uniformes. Ambos mostram 2024 e 2025 com a mesma distância horizontal. No painel A, a proporção sobe de 30% a 45%, e o eixo vai de 0% a 50%. No painel B, sobe de 40% a 55%, e o eixo vai de 0% a 100%.",
+    "options": [
+      {
+        "text": "A cresceu mais, pois terminou em 45% em um painel que vai até 50%.",
+        "reason": "Pode ter comparado o valor com o limite do painel, em vez de observar a mudança entre os anos."
+      },
+      {
+        "text": "B cresceu mais, pois terminou em 55% e A em 45%.",
+        "reason": "Pode ter comparado os valores finais e ignorado os pontos de partida."
+      },
+      {
+        "text": "As duas cresceram 15 pontos percentuais. O eixo de A tem metade da amplitude do eixo de B, e a subida ocupa o dobro da altura.",
+        "reason": "Calcula a mudança nos dados e explica a diferença visual pelas escalas."
+      },
+      {
+        "text": "O título está correto, pois os painéis têm o mesmo tamanho físico.",
+        "reason": "Pode ter tomado a altura impressa como comparável, sem conferir a escala de cada painel."
+      }
+    ],
+    "correctIndex": 2,
+    "explanation": "Em A, 45 − 30 = 15 pontos percentuais. Em B, 55 − 40 = 15 pontos percentuais. Com eixos lineares de mesma altura física, 15 pontos ocupam 15/50 do painel A e 15/100 do painel B."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "practice",
+    "difficulty": "media",
+    "family": "publico-da-pesquisa-omitido",
+    "statement": "A postagem transforma o resultado em “75% de todo o bairro é a favor”. Qual informação ajudaria a avaliar se a conclusão é sustentada?",
+    "supportText": "Exemplo resolvido. Um gráfico diz que 60% dos entrevistados em uma feira foram a pé. Como a pesquisa ouviu apenas quem foi à feira, esse dado descreve as pessoas entrevistadas. Para estender a conclusão à cidade seria preciso considerar um grupo que representasse seus moradores. Novo gráfico. Transcrição de um gráfico de setores de uma postagem fictícia. Título: Opinião sobre abrir a praça aos domingos. Setores: 75% a favor e 25% contra. Rodapé: Consulta da associação de moradores, junho de 2026. A postagem não descreve quem respondeu.",
+    "options": [
+      {
+        "text": "Quem respondeu à consulta e como essas pessoas foram selecionadas.",
+        "reason": "Permite verificar se o recorte de participantes representa os moradores sobre os quais a postagem concluiu."
+      },
+      {
+        "text": "A data em que a consulta foi divulgada.",
+        "reason": "A data ajuda a situar o resultado, mas não explica quais moradores foram ouvidos."
+      },
+      {
+        "text": "O tamanho em graus de cada setor do gráfico.",
+        "reason": "Essa medida pode conferir o desenho, mas não estabelece a representatividade da consulta."
+      },
+      {
+        "text": "Se os 75% foram arredondados para o número inteiro mais próximo.",
+        "reason": "A precisão do percentual informa como o resultado foi apresentado, mas não esclarece quais moradores responderam."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": "Os 75% resumem as respostas de quem participou. Para avaliar se essa proporção pode ser generalizada a todo o bairro, é preciso saber quem foi consultado e como o grupo foi escolhido."
+  },
+  {
+    "skillCode": "EF09MA21",
+    "stage": "verification",
+    "difficulty": "dificil",
+    "family": "intervalos-de-tempo-desiguais-no-eixo",
+    "statement": "O informativo afirma que o número de empréstimos cresceu mais rápido por ano de 2020 a 2024, pois o segundo trecho da linha é mais inclinado. Qual análise confere essa afirmação?",
+    "supportText": "Transcrição de um gráfico de linha de um informativo fictício da biblioteca. Eixo vertical linear: empréstimos anuais em centenas, de 0 a 100. Pontos: 60 em 2019, 70 em 2020 e 90 em 2024. No eixo horizontal, a distância desenhada entre 2019 e 2020 é igual à distância desenhada entre 2020 e 2024.",
+    "options": [
+      {
+        "text": "A afirmação procede. O aumento de 20 centenas é maior que o de 10 centenas.",
+        "reason": "Pode ter comparado os aumentos totais em períodos de durações diferentes."
+      },
+      {
+        "text": "O crescimento médio foi maior de 2019 a 2020. Foram 10 centenas em um ano, contra 20 centenas em quatro anos.",
+        "reason": "Compara as variações anuais médias e desconsidera a impressão provocada pelo eixo."
+      },
+      {
+        "text": "Os dois períodos têm o mesmo ritmo. No desenho, as distâncias horizontais são iguais.",
+        "reason": "Pode ter tomado a distância no desenho como se representasse o mesmo intervalo em anos."
+      },
+      {
+        "text": "O crescimento médio foi maior de 2020 a 2024. O valor de 90 centenas é o maior do gráfico.",
+        "reason": "Pode ter confundido maior quantidade observada com maior taxa de crescimento."
+      }
+    ],
+    "correctIndex": 1,
+    "explanation": "De 2019 a 2020, o aumento médio foi de 10 centenas de empréstimos por ano. De 2020 a 2024, foi de 20 ÷ 4 = 5 centenas por ano. O eixo dá a mesma largura a um ano e a quatro anos, distorcendo a impressão visual da inclinação."
+  }
+]

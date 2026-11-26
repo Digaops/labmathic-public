@@ -1,0 +1,5 @@
+* text=auto
+/server/src/data/**/*.json text eol=lf
+*.gz binary
+*.jpeg binary
+*.png binary

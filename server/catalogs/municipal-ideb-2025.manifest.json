@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "batchId": "630a121381c0121aeabdf8a9da10feb5b41f962afa7fb335262f9f3ad17fe758",
+  "artifact": "municipal-ideb-2025.json.gz",
+  "artifactBytes": 194308,
+  "artifactSha256": "7bf09fa87330f42109cb0098470123d8a766bd5211674f630ecc148dc07fe4a8",
+  "expandedBytes": 3084753,
+  "expandedSha256": "20516aa4454b13d72e07b74b82d55b2ceb893df05f231da6d570c4ff32a7842b",
+  "rowCount": 18726,
+  "placeCount": 5571,
+  "approvalReference": "docs/releases/2026-09-14-functional-homologation.md"
+}

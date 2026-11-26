@@ -1,0 +1,552 @@
+[
+  {
+    "code": "EF03MA19-Q003",
+    "sha256": "fd2efdce38657606723641164752216398aa884a79c9425b789c72df19d918e6",
+    "reason": "A escala de uma régua não permite determinar o comprimento sem informar as posições das duas extremidades do objeto."
+  },
+  {
+    "code": "EF05MA22-Q001",
+    "sha256": "229658f2d43ebf9687410ab85eff9f34cd6eb75e3bf9c592864a1a45b0ea6e9b",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q002",
+    "sha256": "884616bde379fa8bd577982aaa6b700e351e59144ed215bc40414fefda6cd036",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q003",
+    "sha256": "c4cf292c0988dd68e36ca535ab0cd301c3aa9146e871c8f6141ac5706a86c717",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q004",
+    "sha256": "4d1d5569bc6b866ae16c59465002802bf6f416e65d3fd7451904d20ca862190a",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q005",
+    "sha256": "32e56a1055749c6b5e6fff8e4bd0353e4bc7d553562acbc38f3c65b46b6578c4",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q006",
+    "sha256": "48c65f14a31a1abdc0ca256c4d2c5f53decfbbfc8eeccf3451ce4d61a99ee9c8",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q007",
+    "sha256": "37560bef525c6ed562452ad01c52322a057b88275bf1bf8dddb254ddbc413eb2",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q008",
+    "sha256": "f14227549f7d8e612cd3920a6f40e987d25fab15e78479aa1d849c5b7422a0ae",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q009",
+    "sha256": "e73fd45e601555d4739b8477adf776da9bc7825ed6d929f7934610db799b8a5c",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF05MA22-Q010",
+    "sha256": "4deac72447f34c6ce8d58e09000c610d210b9fc51d1851393d01602d183e36cb",
+    "reason": "O item trata de compras ou descontos sem examinar os resultados possíveis de um experimento aleatório."
+  },
+  {
+    "code": "EF06MA23-Q001",
+    "sha256": "761f30b64999af391a58e506fd8d48b9663a63b130bdd1ae3e193da2e1ed1cfe",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q002",
+    "sha256": "8785cb878b4bae7dc6586dd3cabb714e259c991787f74e5dfb7f00f849f4dcb2",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q003",
+    "sha256": "7bf283e7d76f2b232bcded82230868a2e610358d652409a81bebc724a8fbd741",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q004",
+    "sha256": "fb61c4d54e9edcafa68034bf2cb396d513d3c01d2185abc290813b5960f1c48e",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q005",
+    "sha256": "3fc7e0e7ea47a54a1787ce879da25ecca1ca6c567faaddefefd3215547694e9e",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q006",
+    "sha256": "9a335d299e88cc5bceb0efb35eabfe41f0cfb38e099f2ab9df3c66f7c6e20e9b",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q007",
+    "sha256": "c6564abe02a19381d6ff9e13a69b0be5d2401edb369454a364e109d302e00a00",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q008",
+    "sha256": "64e4a4051ffc8971a09fd77f6a1157e03d19ccf597535232210ec90b07329294",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q009",
+    "sha256": "98f5a78eebe99996fc97c46dc4869eed58a4363eb498a82fb8fe6acd5d3ac48c",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA23-Q010",
+    "sha256": "2731fc71c53a9db5dd93cc415b9aa81f50a43e15492f9fadfaaebdedd282eef2",
+    "reason": "O item avalia unidades ou conversão sem construir um algoritmo para construção ou deslocamento."
+  },
+  {
+    "code": "EF06MA29-Q001",
+    "sha256": "4d7514b515afd68540a11a0d2d7c5fe1de8ac7319911d0ce5353072462db112b",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q002",
+    "sha256": "262c2cdacffe6b621f667ad9e6cff8d4a40bd0783acdabfdcd63d18c1c9639ad",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q003",
+    "sha256": "82d82ed3b2da792668758fe1a735c107a1073d9ad353664609b7e0b407e0aac0",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q004",
+    "sha256": "c41c1f333081bb49382dc299c9295e5dd957fd9c67d2434c173885ed55ce046b",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q005",
+    "sha256": "bdfd1f7075f8e4e1a158910b66233314efd22779ff553785cfb8a5ca653c3069",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q006",
+    "sha256": "85f73077239484e6d6fd8473c17600473bb6f708e6d5f9d82a61577d0daeef8b",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q007",
+    "sha256": "03dc7545c8f5d0bf4162cffc7a52c0aae8b73bbd16fb197c3f9f17ff3ce1eff4",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q008",
+    "sha256": "a191efaf74d8d11ec0941d5feaf32576f8813e4ea912fd9c3b2319fcf8c6262f",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q009",
+    "sha256": "8550121dc999b6c5ad62ae5b8479143c0b0c67428fd6000dcd20f8a2261bd741",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA29-Q010",
+    "sha256": "e44b37626e66d31225b9a414a65790cca1243da7890d081e0a8b9ba632032e32",
+    "reason": "O item trata de compras e consumo sem comparar o que acontece com perímetro e área ao mudar a medida do lado de um quadrado."
+  },
+  {
+    "code": "EF06MA34-Q001",
+    "sha256": "b7764072722dc8b7d2364cb1a90f8e9ad88e0dc2c2b2432b7e71a7c937b8f02d",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q002",
+    "sha256": "c2f7a3946435ea4f40f142a92af56aea90b11513f135694068b8e559f7419e4f",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q003",
+    "sha256": "85215123bebcf3f02122891d1896e2c9a503eb93f38d0bfff7106e87e09a4d0f",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q004",
+    "sha256": "40c635e2b21fcad997e50fe05ea1787f8b1dca668614b2e8c26d6b6cc319243b",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q005",
+    "sha256": "7c225bdf3cdd4827db25174c290d34470222104c0c7a0f1791e686c4cb1216a5",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q006",
+    "sha256": "026c484aeab09e6210e2c83daa654196d0563cbe4e541b7209249d8786a1f763",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q007",
+    "sha256": "9db70f9682e5d5d0403297048705b26d46a528c7cfca0e06739828d0a4ca232e",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q008",
+    "sha256": "6076d6f4951f9feead5238db7a8b9515ed12be5c0c8431a4e83021f92b996068",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q009",
+    "sha256": "a9599037736e877c4e7910fe295ba2e3c184728b59d13919e5b1dcd0b0e0e15b",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF06MA34-Q010",
+    "sha256": "490dc0dd90cf109a46ba1064a9c8e2cc8369b739d9806099e71d00a67ba990eb",
+    "reason": "O item avalia frações ou porcentagens sem interpretar ou desenvolver um fluxograma."
+  },
+  {
+    "code": "EF07MA17-Q001",
+    "sha256": "5f7d45e2ed8fcef3e9ce4178196fe1dcfca7aa8eb75529c7b0de12f30ddbbc1e",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q002",
+    "sha256": "cd5f2816361a8cfce773390286da758aea7191df173efd6363089defe033519b",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q003",
+    "sha256": "564dbe72b9d35458f2003934ea661df23eb159d722f0a4eb3811d8079ff5f49e",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q004",
+    "sha256": "23a29ae63304729bd6b4b9021ffb3a92834ff2abfbe038b67ea842e3d1595d2c",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q005",
+    "sha256": "3c058bc181ea228f63bea85fad2733e74db14d7de77921020fc882cccec2ddfb",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q006",
+    "sha256": "54886047bd2f5f727d6726831980d8aa9a6b4307c461113673f11594a9a3911b",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q007",
+    "sha256": "250982ff2f9b8d5b25745a3e3ab618153f630abea6f4d1b768a69df3a4267699",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q008",
+    "sha256": "5095ecfc6b61d57521073855fbcc3782523a8c008d1074169b6158de29a49f5b",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q009",
+    "sha256": "d7c484ee2b5e0e82fad7d96d4e0664c01d004e361cceedbef4488b395de93699",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA17-Q010",
+    "sha256": "7babcca9e2523343f210a2c45f0ede700f7f0f38c9d8f88f7a11504e807bb579",
+    "reason": "O item avalia cálculo, expressão ou substituição sem resolver uma situação de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF07MA28-Q001",
+    "sha256": "4224ec43b5d39787cc94aff30d8c0718418ac93a328ddfeb92a79e865494d7e0",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q002",
+    "sha256": "aa506764aa2d5b4e0e3edd51ba36aa045d1be2e4a633e9972fd3bf0cae97a278",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q003",
+    "sha256": "334f641c197ecadce5fc6bdfe4e5e3ceab125c22012dae6a0ab99d3b0445d251",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q004",
+    "sha256": "4eb73a71427dbfde22db372d14abf53878788327bb0edde1d41dcfc2a37b9668",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q005",
+    "sha256": "45f04553b4fd92d37b829e38289b16c74b38d743fc994b66c23be79032bd364f",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q006",
+    "sha256": "ae34db84d0038cd484bf230c4a260229522ae0bf060195200cef9e2cea59031f",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q007",
+    "sha256": "3df525b223e1cb349727eac432b1221744a7282c0d79492318f385322d1133ec",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q008",
+    "sha256": "86147287b6ff392c5b1c20276cfc68a057f1236c1c0c41ca5c5aacce56f7795f",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q009",
+    "sha256": "60c4cf884db93360c574a79d9e6c4aab34811e32d1f69d2fc825abbd6a0f2058",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF07MA28-Q010",
+    "sha256": "bb029cf70b9b5bcf22b991495b222fe6f6e0ea9c6f8d9b500ca295c991cf84a7",
+    "reason": "O item trata de proporcionalidade sem descrever um processo de construção de polígono regular."
+  },
+  {
+    "code": "EF08MA17-Q001",
+    "sha256": "cee6ca08889a0943db14a1251175462d70b1c80d4e3d967b41670ba532c1b78c",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q002",
+    "sha256": "e58fae8d07ed768d6665d571db704187891d3caab88cf6d42c9de9cc43c58232",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q003",
+    "sha256": "b4bb5e23ecfb0e33989207a044a0a43ea84f6843eb12ca10f6949bfb4037b643",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q004",
+    "sha256": "6f107a384c52024a21b9d9a7d6894f79dfb0790e20a7f466ccae56f70a9d3658",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q005",
+    "sha256": "db64f321516b6885c52cacaee5e440b1b8cd7d88480e379dc0b6f9784fcf2179",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q006",
+    "sha256": "8ea8b06350d8dcc196a7dae5d800d81c996459aa3e214d412c0145469941dfd7",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q007",
+    "sha256": "783feea43ebe641c9275b9c7c2fb88879c000281c5ab5839c195d9ed5ab3fb94",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q008",
+    "sha256": "b8a7969061ed3ab0a2053fee9ae5dd83060c6527dcf06a69f94a07c27b14eeb9",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q009",
+    "sha256": "89b45b62dac1f45908174bcd442172431e505e5c72778b663a786548cca10d1c",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA17-Q010",
+    "sha256": "3b1dc5306719bafe2bcfc7771cd4d4d1e374ef95592d9dbe2cc47b6c1a2d782a",
+    "reason": "O item trata de transformações geométricas sem aplicar mediatriz ou bissetriz como lugar geométrico para resolver um problema."
+  },
+  {
+    "code": "EF08MA23-Q001",
+    "sha256": "d8e0ae79b2d076976c156a7b39d684e1516ebd36a64a176b96c7ebc8934dea81",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q002",
+    "sha256": "747b8489d47b5bd6c36f84f1766489fd809bf296fee67cdc84e17b2785cef5c0",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q003",
+    "sha256": "835018dfb260d4076c0c67717e9823ca6c3f38c7510d46341a9089da0d87d991",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q004",
+    "sha256": "89efd36cc7d452383937296f16642e73179acc0697a511b21dcb7a047bcb385a",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q005",
+    "sha256": "84f957ee301e9e1374d4da67e29d5ba9c5d073e50c310c1414ae7bbb9830d2d3",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q006",
+    "sha256": "b52ba6fb37dbab95a8815938183e06c0023a0cae1ec98194d9ac4eac9775adc1",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q007",
+    "sha256": "c83f660aa81a3fb821ab3deba2d5a0fee86676297cc4dfe8255cb34b763d9c45",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q008",
+    "sha256": "96758c51d49f00bf4ed8286f441d632b76884055fe31dd777a7c86e556e2c1dd",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q009",
+    "sha256": "41effba0361adad4547e760f650732134bee4be85b24e6806d0ecd18361888ff",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF08MA23-Q010",
+    "sha256": "a58cb62d2768352a97f5233cc6c01d105bd5d52e68e7158c6a1e266637ef3fb9",
+    "reason": "O item trata de razão entre grandezas sem avaliar a adequação de um tipo de gráfico aos dados."
+  },
+  {
+    "code": "EF09MA07-Q001",
+    "sha256": "1838fbc09b392e46928131316302e7fbc14f53bca69173c9d5dbdf8d5ccd8d43",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q002",
+    "sha256": "0c67773b42e0e3c3f42a3a895b8fc6c34ba2e0acdaa8f17c32e7043056dbce9c",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q003",
+    "sha256": "e2d770c3ed0aea38fffccd9ff0f565d0cee9bef30ccb060a20e09fc9d8c661f8",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q004",
+    "sha256": "e03d66065cb573abf8df873471c2c6f226a7a823cd2464f9c648e1600a1d1141",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q005",
+    "sha256": "92165a0754d221c6ae161aac7da201d92ce0bb02428f43bab0ffc03bad5d8854",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q006",
+    "sha256": "b5030d0761a344ab643ed393096aca6dc822081cea3c5e87eed68882d31a0c4e",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q007",
+    "sha256": "fe93cf45532971ab065ca5fcd3eacb2d837094f8adf532990ff73f46ca96b277",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q009",
+    "sha256": "9f2498c142467e049f05f09a29a0d30d2dc44f91257e68d09c96eb97feb20709",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA07-Q010",
+    "sha256": "797992a3ec47a5e0be5d03e6ddaf4f47e0786f6f9b2e298da54681745c3d4859",
+    "reason": "O item avalia equações sem resolver um problema de razão entre duas grandezas de espécies diferentes."
+  },
+  {
+    "code": "EF09MA08-Q001",
+    "sha256": "1101dbe6b628c25e1fcbfa99a60b24bc61aa97cbfe60190c76c3a6c543628048",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q002",
+    "sha256": "b04f184d1f9d4993fbabf28483c52bf6fc2dd5f5f8ed84f678307353a0e9b350",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q003",
+    "sha256": "aa136bdb9ee3eef227f8df2155ba61c0e2ffd52ca0d2a81521c43c996667a71f",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q004",
+    "sha256": "c4bf8110ceb4c9b087b4a957a0fb1e38f0599b679d0721d5f0e2ee740f469222",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q005",
+    "sha256": "f7bde7f395873af3225567a83e034699da95ac6416bb7ec4a3be89342a76b3ad",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q006",
+    "sha256": "4fde7506c95710572d8418a828ff93fe41ee466bc66d6868b911565462090998",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q007",
+    "sha256": "469b300cf92306c88284373ac70c147507762ef6c50fcaac8401f61163f4d58e",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q008",
+    "sha256": "d0401b999ae21973e0c4e94db36c124043e4cbd7ef1dbf5faf25a4c8d978ea56",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q009",
+    "sha256": "5bbc6e0fdd03f116d193dcc62c27e229ed8942ad2d8df96724bdf3f24f3a4af6",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA08-Q010",
+    "sha256": "8781e1894723ef4553166496d0789cda51c0efd9edf95f7de56d56d58b405ff8",
+    "reason": "O item avalia sistemas e relações aditivas sem resolver um problema de proporcionalidade direta ou inversa."
+  },
+  {
+    "code": "EF09MA21-Q001",
+    "sha256": "c6cb45b857457483ecb90ab9011ee9386cb0b05854f840b6d10b803eba7492c0",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q002",
+    "sha256": "7b1cc51d70ff108204ed22dc4ca4eff41f918d6ce87d30499257ba7fe946fb68",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q003",
+    "sha256": "9643cbf5de707a8242a85e83879cd177d402972f21927053885ec8c3f58de4a9",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q004",
+    "sha256": "afecb95cb6c488c5001fc6bf363e262338b29287b40f5a23a0b6209b4d0b8967",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q005",
+    "sha256": "850f57f3b081a050e118ec4f450996d2cfae83293299bec47188c40d67ec2696",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q006",
+    "sha256": "ff92c351a42b7e331b264d56252137d1d2fb6f46ee42ab646a7b4304a3d0ffc3",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q007",
+    "sha256": "2364e75c49920c69bdb76ed7b97b525fbf36b249cfbce96aa94129fe6e189e0d",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q008",
+    "sha256": "5bbb33fa9e03e8ceea35b7635176e68e8ae2753fc3792e69716e2e7e7d4787fc",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q009",
+    "sha256": "dd9f0f98bdeb75da518f9a007abab293d8e86d82a77389b346c596fe05c0f2c4",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  },
+  {
+    "code": "EF09MA21-Q010",
+    "sha256": "068c0a4b4201b985d7377be4bae918a87f57c29b37bdb4535f261f7a47ec5ad1",
+    "reason": "O item avalia variáveis ou noções de pesquisa sem analisar problemas de interpretação em um gráfico divulgado na mídia."
+  }
+]

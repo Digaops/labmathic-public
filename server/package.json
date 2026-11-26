@@ -1,0 +1,48 @@
+{
+  "name": "biblioteca-digital-server",
+  "version": "1.0.0",
+  "description": "API REST - Biblioteca Digital Pedagógica",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node scripts/testing/runTests.js",
+    "ci:migrations:rehearse": "node scripts/ci/migrationRehearsal.js",
+    "ci:backup:offsite:rehearse": "node scripts/ci/offsiteBackupRehearsal.js",
+    "homologation:sanitize": "node scripts/homologation/sanitizeDatabase.js",
+    "homologation:smoke:api": "node scripts/homologation/apiSmoke.js",
+    "homologation:institutions:backfill": "node scripts/homologation/institutionalBackfill.js",
+    "homologation:institutions:prepare-inep-schools": "node scripts/homologation/prepareInepSchoolDirectoryArtifact.js",
+    "homologation:institutions:import-inep-schools": "node scripts/homologation/importInepSchoolDirectory.js",
+    "db:migrations:status": "node src/migrationStatus.js",
+    "seed": "node src/seed.js",
+    "backup": "node src/backup.js",
+    "backup:offsite": "node scripts/backup/offsiteBackup.js",
+    "backup:offsite:maintenance": "node scripts/backup/offsiteMaintenance.js",
+    "question-images:sync": "node src/syncQuestionImages.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.7.0",
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.3.1",
+    "fflate": "^0.8.3",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "2.5.0",
+    "nodemailer": "10.6.0",
+    "openai": "7.15.0",
+    "read-excel-file": "9.3.10",
+    "saxen": "11.1.1",
+    "uuid": "^11.1.1"
+  },
+  "overrides": {
+    "qs": "6.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

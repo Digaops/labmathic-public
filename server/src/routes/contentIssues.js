@@ -1,0 +1,11 @@
+const router = require('express').Router();
+const db = require('../database');
+const { authenticate } = require('../middleware/auth');
+const { createIssue, reviewIssue, listIssues, getIssue } = require('../services/contentIssues');
+router.use(authenticate, (_req, res, next) => { res.set('Cache-Control', 'no-store'); next(); });
+router.get('/', (req, res, next) => { try { res.json(listIssues(db, req.user, req.query)); } catch (e) { next(e); } });
+router.get('/:id', (req, res, next) => { try { res.json(getIssue(db, req.user, req.params.id)); } catch (e) { next(e); } });
+router.post('/', (req, res, next) => { try { res.json(createIssue(db, { actor: req.user, key: req.get('Idempotency-Key'), body: req.body, req })); } catch (e) { next(e); } });
+router.post('/:id/reviews', (req, res, next) => { try { res.json(reviewIssue(db, { actor: req.user, publicId: req.params.id, key: req.get('Idempotency-Key'), body: req.body, req })); } catch (e) { next(e); } });
+router.use((e, _req, res, next) => { if (e.status && e.code) res.status(e.status).json({ code: e.code, error: e.message }); else next(e); });
+module.exports = router;
